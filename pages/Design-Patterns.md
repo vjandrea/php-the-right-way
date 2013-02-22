@@ -1,21 +1,24 @@
 ---
 layout: page
-title: Design Patterns
+title: Design Pattern
 ---
 
-# Design Patterns
+# Design Pattern
 
-There are numerous ways to structure the code and project for you web application, and you can put as much or as little
-thought as you like into architecting. But it is usually a good idea to follow to common patterns because it will make
-your code easier to manage and easier for others to understand.
+Ci sono diversi modi di strutturare il codice e il progetto per la tua
+applicazione Web, e puoi sforzarti quanto preferisci nell'architettarli.
+Generalmente, però, è una buona idea seguire dei modelli comuni, in modo da
+rendere il tuo codice più semplice da gestire per te e più facile da leggere per
+gli altri.
 
-* [Architectural pattern on Wikipedia](https://en.wikipedia.org/wiki/Architectural_pattern)
-* [Software design pattern on Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
+* [Modelli architetturali su Wikipedia](https://en.wikipedia.org/wiki/Architectural_pattern)
+* [Design pattern su Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
 
 ## Factory
 
-One of the most commonly used design patterns is the factory pattern. In this pattern, a class simply creates
-the object you want to use. Consider the following example of the factory pattern:
+Uno dei design pattern più usati è il _Factory Method_. In questo pattern, una
+classe crea l'oggetto che vuoi utilizzare. Considera il seguente esempio di
+_Factory Method_:
 
 {% highlight php %}
 <?php
@@ -44,31 +47,37 @@ class AutomobileFactory
     }
 }
 
-// have the factory create the Automobile object
+// facciamo creare l'oggetto Automobile alla factory
 $veyron = AutomobileFactory::create('Bugatti', 'Veyron');
 
-print_r($veyron->get_make_and_model()); // outputs "Bugatti Veyron"
+print_r($veyron->get_make_and_model()); // visualizza "Bugatti Veyron"
 {% endhighlight %}
 
-This code uses a factory to create the Automobile object. There are two possible benefits to building your code this
-way, the first is that if you need to change, rename, or replace the Automobile class later on you can do so and you
-will only have to modify the code in the factory, instead of every place in your project that uses the Automobile
-class. The second possible benefit is that if creating the object is a complicated job you can do all of the work in
-the factory, instead of repeating it every time you want to create a new instance.
+Questo codice usa una _factory_ per creare l'oggetto Automobile. Ci sono due
+potenziali benefici nello strutturare il codice in questo modo. Il primo è che,
+se in futuro avrai bisogno di rinominare, modificare o sostituire la classe
+Automobile, dovrai solamente modificare la _factory_ invece di ogni riga del tuo
+codice che usa la classe Automobile. Il secondo beneficio è che, se creare un
+oggetto è un lavoro complicato, puoi fare tutto nella _factory_ invece di
+ripeterlo ogni volta che vuoi creare una nuova istanza.
 
-Using the factory pattern isn't always necessary (or wise). The example code used here is so simple that a factory
-would simply be adding unneeded complexity. However if you are making a fairly large or complex project you may save
-yourself a lot of trouble down the road by using factories.
+Usare il _Factory Method_ non è sempre necessario (né saggio). Il codice di
+esempio mostrato qui è così semplice che aggiungere una _factory_ significa solo
+complicare inutilmente l'applicazione. Tuttavia, se stai creando un progetto
+grande o complesso, potresti volerti risparmiare molta fatica usando le
+_factory_.
 
-* [Factory pattern on Wikipedia](https://en.wikipedia.org/wiki/Factory_pattern)
+
+* [Factory Method su Wikipedia](https://it.wikipedia.org/wiki/Factory_method)
 
 ## Singleton
 
-When designing web applications, it often makes sense conceptually and architecturally to allow access to one and 
-only one instance of a particular class. The singleton pattern enables us to do this.
+Durante la progettazione di un'applicazione Web, è spesso sensato
+concettualmente e architetturalmente permettere l'accesso a una e una sola
+istanza di una specifica classe. Il pattern _singleton_ ci permette di fare ciò.
 
 {% highlight php %}
-<?php 
+<?php
 class Singleton
 {
     static $instance;
@@ -90,33 +99,53 @@ class Singleton
 $instance1 = Singleton::getInstance();
 $instance2 = Singleton::getInstance();
 
-echo $instance1 === $instance2; // outputs 1
+echo $instance1 === $instance2; // visualizza 1
 {% endhighlight %}
 
-The code above implements the singleton pattern using a statically scoped variable and the `getInstance()` method. 
-Note that the constructor is declared as private to prevent instantiation outside of the class via `new` keyword.
+Il codice qui sopra implementa il _singleton_ utilizzando una variabile statica
+e il metodo `getInstance()`. Nota come il costruttore viene dichiarato privato
+per prevenire l'istanziamento della classe tramite la keyword `new`.
 
-The singleton pattern is useful when we need to make sure we only have a single instance of a class for the entire 
-request lifecycle in a web application. This typically occurs when we have global objects (such as a Configuration 
-class) or a shared resource (such as an event queue).
+Il pattern _Singleton_ è utile quando dobbiamo assicurarci che esiste una sola
+istanza di una classe per l'intero ciclo di vita della richiesta in
+un'applicazione Web. Ci troviamo spesso in questa situazione quando abbiamo
+degli oggetti globali (come una classe Configuration) o una risorsa condivisa
+(come una coda di eventi).
 
-You should be wary when using the singleton pattern, as by its very nature it introduces global state into your 
-application, reducing testability. In most cases, dependency injection can (and should) be used in place of a 
-singleton class. Using dependency injection means that we do not introduce unnecessary coupling into the design of our 
-application, as the object using the shared or global resource requires no knowledge of a concretely defined class.
+Dovresti stare molto attento quando usi il pattern _Singleton_, perché per
+definizione introduce uno stato globale nella tua applicazione, riducendo la
+testabilità. Nella maggior parte dei casi, l'iniezione delle dipendenze può
+(e dovrebbe) essere usata al posto di una classe _Singleton_. Utilizzando
+l'iniezione delle dipendenze non dobbiamo introdurre alcun legame nel design
+della nostra applicazione, perché l'oggetto che utilizza una risorsa globale o
+condivisa non dev'essere a conoscenza di alcuna classe concretamente definita.
 
-* [Singleton pattern on Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
+* [Singleton su Wikipedia](https://it.wikipedia.org/wiki/Singleton)
 
 ## Front Controller
 
-The front controller pattern is where you have a single entrance point for you web application (e.g. index.php) that
-handles all of the requests. This code is responsible for loading all of the dependencies, processing the request and
-sending the response to the browser. The front controller pattern can be beneficial because it encourages modular code
-and gives you a central place to hook in code that should be run for every request (such as input sanitization).
+Il _Front Controller Pattern_ consiste nell'utilizzo di un singolo punto di
+entrata per la tua applicazione Web (es. index.php) che gestisce tutte le
+richieste. Questo codice è responsabile di caricare di tutte le dipendenze, di
+processare la richiesta e di inviare la risposta al browser. Il _Front
+Controller Pattern_ può portare benefici perché incoraggia l'uso di codice
+modulare e fornisce un punto centrale in cui inserire codice che dev'essere
+eseguito per ogni richiesta (come la sanificazione dell'input).
 
-* [Front Controller pattern on Wikipedia](https://en.wikipedia.org/wiki/Front_Controller_pattern)
+* [Front Controller Pattern su Wikipedia](https://it.wikipedia.org/wiki/Front_Controller_pattern)
 
 ## Model-View-Controller
+
+Il pattern _Model-View-Controller_ (MVC), e i collegati HMVC e MVVM,  permettono
+di dividere il codice in oggetti logici che hanno funzioni altamente specifiche.
+I modelli servono come layer di accesso ai dati, dove i dati vengono recuperati
+e restituiti in formati utilizzabili all'interno della tua applicazione. I
+controller gestiscono la richiesta, processano le informazioni restituite dai
+modelli e caricano le viste che inviano in risposta. Le viste sono dei template
+(markup, XML ecc.) che vengono inviati in risposta al browser Web.
+
+MVC è il pattern architetturale più comune usato nei [framework PHP]
+(https://github.com/codeguy/php-the-right-way/wiki/Frameworks) famosi.
 
 The model-view-controller (MVC) pattern and its relatives HMVC and MVVM let you break up code into logical objects that
 serve very specific purposes. Models serve as a data access layer where data is fetched and returned in formats usable
@@ -124,10 +153,8 @@ throughout your application. Controllers handle the request, process the data re
 send in the response. And views are display templates (markup, xml, etc) that are sent in the response to the web
 browser.
 
-MVC is the most common architectural pattern used in the popular [PHP frameworks](https://github.com/codeguy/php-the-right-way/wiki/Frameworks).
+Impara di più riguardo l'MVC e i pattern a esso collegati:
 
-Learn more about MVC and its relatives:
-
-* [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93View%E2%80%93Controller)
+* [MVC](https://it.wikipedia.org/wiki/Model-View-Controller)
 * [HMVC](https://en.wikipedia.org/wiki/Hierarchical_model%E2%80%93view%E2%80%93controller)
 * [MVVM](https://en.wikipedia.org/wiki/Model_View_ViewModel)
