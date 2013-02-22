@@ -1,42 +1,46 @@
-# Welcome
+# Benvenuto
 
-There's a lot of outdated information on the Web that leads new PHP users astray, propagating bad practices and bad
-code. This must stop. _PHP: The Right Way_ is an easy-to-read, quick reference for PHP best practices, accepted coding
-standards, and links to authoritative tutorials around the Web.
+Ci sono molte informazioni datate sul Web che portano gli utenti PHP fuori
+strada, propagando cattive pratiche e cattivo codice. Deve finire. _PHP: La
+Retta Via_ è un manuale facile da leggere per migliori pratiche di PHP, standard
+di codifica accettati e link a tutorial autoritari sparsi per il Web.
 
-## Translations
+## Traduzione
 
-_PHP: The Right Way_ is (or soon will be) translated into many different languages:
+_PHP: La Retta Via_ è (o sarà presto) tradotto in diverse lingue:
 
-* [English](http://www.phptherightway.com)
-* [Chinese](http://wulijun.github.com/php-the-right-way)
-* [Japanese](http://ja.phptherightway.com)
-* [Polish](http://pl.phptherightway.com/)
-* [Portuguese](http://br.phptherightway.com/)
-* Russian (Coming Soon)
-* [Spanish](http://es.phptherightway.com)
-* [Ukrainian](http://iflista.github.com/php-the-right-way/)
-* [Bulgarian](http://bg.phptherightway.com/)
+* [Inglese](http://www.phptherightway.com)
+* [Cinese](http://wulijun.github.com/php-the-right-way)
+* [Giapponese](http://ja.phptherightway.com)
+* [Polacco](http://pl.phptherightway.com/)
+* [Portoghese](http://br.phptherightway.com/)
+* Russo (In Arrivo)
+* [Spagnolo](http://es.phptherightway.com)
+* [Ucraino](http://iflista.github.com/php-the-right-way/)
+* [Bulgaro](http://bg.phptherightway.com/)
 
-## Disclaimer
+## Avvertenza
 
-_There is no canonical way to use PHP_. However, this website is a humble display of best practices,
-available options, and good information. It aims to introduce new PHP developers and to rethink seasoned pros with fresh
-ideas.
+_Non c'è un modo canonico di usare PHP_. Tuttavia, questo sito Web è una modesta
+mostra di migliori pratiche, opzioni disponibili e buone informazioni. Mira a
+introdurre i nuovi sviluppatori PHP e a far ricredere i professionisti con
+nuove idee.
 
-This is a living document and will continue to be updated with more helpful information and examples as they become
-available.
+Questo è un documento attivo e continuerà a essere aggiornato con nuove
+informazioni utili ed esempi quando saranno disponibili.
 
-## How to Contribute
+## Come contribuire
 
-Help make this website the best resource for new PHP programmers! [Contribute on GitHub][1]
+Aiuta questo sito Web a diventare la migliore risorsa per i nuovi progrmmatori
+PHP! [Contribuisci su GitHub][1]
 
-## Spread the Word!
+## Spargi la voce!
 
-_PHP: The Right Way_ has web banner images you can use on your website. Show your support, and let new PHP developers
-know where to find good information!
+_PHP: La Retta Via_ ha immagini banner che puoi usare sul tuo sito Web. Mostra
+il tuo supporto e fai sapere ai nuovi sviluppatori PHP dove possono trovare
+buone informazioni.
 
-[See Banner Images][2]
+[Vedi banner][2]
 
 [1]: https://github.com/codeguy/php-the-right-way/tree/gh-pages
 [2]: /banners.html
