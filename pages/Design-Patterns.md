@@ -144,8 +144,9 @@ controller gestiscono la richiesta, processano le informazioni restituite dai
 modelli e caricano le viste che inviano in risposta. Le viste sono dei template
 (markup, XML ecc.) che vengono inviati in risposta al browser Web.
 
-MVC è il pattern architetturale più comune usato nei [framework PHP]
-(https://github.com/codeguy/php-the-right-way/wiki/Frameworks) famosi.
+MVC è il pattern architetturale più comune usato nei
+[framework PHP](https://github.com/codeguy/php-the-right-way/wiki/Frameworks)
+famosi.
 
 The model-view-controller (MVC) pattern and its relatives HMVC and MVVM let you break up code into logical objects that
 serve very specific purposes. Models serve as a data access layer where data is fetched and returned in formats usable
