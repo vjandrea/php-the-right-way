@@ -1,26 +1,31 @@
 ---
 isChild: true
+title:   Componenti
 ---
 
-## Components {#components_title}
+## Componenti {#componenti_title}
 
-As mentioned above "Components" are another approach to the common goal of creating, distributing and implementing shared code. Various 
-component repositories exist, the main two of which are:
+Come menzionato sopra i componenti sono un altro approccio all'obiettivo comune
+di creare, distribuire e implementare codice condiviso. Diversi repository di
+componenti esistono, e i due principali sono:
 
-* [Packagist](/#composer_and_packagist)
+* [Packagist](/#composer_e_packagist)
 * [PEAR](/#pear)
 
-Both of these repositories have command line tools associated with them to help the installation and upgrade processes, and have been 
-explained in more detail in the [Dependency Management][dm] section.
+Entrambi hanno degli strumenti da linea di comando associati per aiutare nei
+processi di installazione e aggiornamento, e vengono spiegati più in dettaglio
+nella sezione riguardante la [gestione delle dipendenze][dm].
 
-There are also component-based frameworks, which allow you to use their components with minimal (or no) requirements. For example, you 
-can use the [FuelPHP Validation package][fuelval], without needing to use the FuelPHP framework itself. These projects are essentially 
-just another repository for reusable components:
+Ci sono anche framework a componenti che permettono di usare i loro componenti
+con pochi o nessun requisito  Per esempio, puoi usare il
+[pacchetto Validation di FuelPHP][fuelval] senza dover usare il framework
+FuelPHP. Questi progetti sono essenzialmente solo altri repository per
+componenti riutilizzabili.
 
   [dm]: /#dependency_management
   [fuelval]: https://github.com/fuelphp/validation
 
 * [Aura](http://auraphp.github.com/)
-* [FuelPHP (2.0 only)](https://github.com/fuelphp)
-* [Laravel's "Illuminate Components"](https://github.com/illuminate)
-* [Symfony Components](http://symfony.com/doc/current/components/index.html)
+* [FuelPHP (solo 2.0)](https://github.com/fuelphp)
+* [Gli "Illuminate Components" di Laravel](https://github.com/illuminate)
+* [Componenti di Symfony](http://symfony.com/doc/current/components/index.html)
