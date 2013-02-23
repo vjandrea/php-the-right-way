@@ -1,23 +1,28 @@
 ---
 isChild: true
+title: Configurazione Mac
 ---
 
-## Mac Setup  {#mac_setup_title}
+## Configurazione Mac  {#configurazione_mac_title}
 
-OSX comes prepackaged with PHP but it is normally a little behind the latest stable. Lion comes with PHP 5.3.6 and
-Mountain Lion has 5.3.10.
+OSX contiene una versione prepacchettizata di PHP ma è generalmente più vecchia
+dell'ultima versione staile. Lion cotniene PHP 5.3.6 e Mountain Lion ha PHP
+5.3.10.
 
-To update PHP on OSX you can get it installed through a number of Mac [package managers][mac-package-managers], with
-[php-osx by Liip][php-osx-downloads] being recommended.
+Per aggiornare PHP su OSX puoi installarlo tramite un
+[gestore di pacchetti][mac-package-managers] per Mac.
+[php-osx][php-osx-downloads] di Liip è raccomandato.
 
-The other option is to [compile it yourself][mac-compile], in that case be sure to have installed either Xcode or
-Apple's substitute ["Command Line Tools for Xcode"][apple-developer] downloadable from Apple's Mac Developer Center.
+L'altra opzione è [compilarlo][mac-compile] da sé. In questo caso assicurati di
+avere Xcode o i ["Command Line Tools for Xcode"][apple-developer] di Apple
+scaricabili dal centro sviluppatori Apple.
 
-For a complete "all-in-one" package including PHP, Apache web server and MySQL database, all this with a nice control
-GUI, try [MAMP][mamp-downloads].
+Per un pacchetto "all-in-one" che include PHP, il Web server Apache e il
+database MySQL, tutto con una fantastica GUI di controllo, prova
+[MAMP][mamp-downloads].
 
-[mac-package-managers]: http://www.php.net/manual/en/install.macosx.packages.php
-[mac-compile]: http://www.php.net/manual/en/install.macosx.compile.php
+[mac-package-managers]: http://www.php.net/manual/it/install.macosx.packages.php
+[mac-compile]: http://www.php.net/manual/it/install.macosx.compile.php
 [xcode-gcc-substitution]: https://github.com/kennethreitz/osx-gcc-installer
 [apple-developer]: https://developer.apple.com/downloads
 [mamp-downloads]: http://www.mamp.info/en/downloads/index.html
