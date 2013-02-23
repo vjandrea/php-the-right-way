@@ -1,29 +1,44 @@
-# Code Style Guide  {#code_style_guide_title}
+---
+title: Stile di codifica
+---
 
-The PHP community is large and diverse, composed of innumerable libraries, frameworks, and components. It is common for
-PHP developers to choose several of these and combine them into a single project. It is important that PHP code adhere
-(as close as possible) to a common code style to make it easy for developers to mix and match various libraries for
-their projects.
+# Stile di codifica  {#guida_allo_stile_di_codifica_title}
 
-The [Framework Interop Group][fig] (formerly known as the 'PHP Standards Group') has proposed and approved a series of
-style recommendations, known as [PSR-0][psr0], [PSR-1][psr1], [PSR-2][psr2] and [PSR-3][psr3]. Don't let the funny names confuse you,
-these recommendations are merely a set of rules that some projects like Drupal, Zend, Symfony, CakePHP, phpBB, AWS SDK, FuelPHP,
-Lithium, etc are starting to adopt. You can use them for your own projects, or continue to use your own personal style.
+La comunità PHP è grande e diversificata, fatta di innumerevoli librerie,
+framework e componenti. È comune per gli sviluppatori PHP scegliere diversi di
+questi e combinarli in un singolo progetto. È importante che il codice PHP
+aderisca (il più fedelmente possibile) a uno stile di codifica comune per
+rendere facile agli sviluppatori mischiare e usare diverse librerie nei loro
+progetti.
 
-Ideally you should write PHP code that adheres to one or more of these standards so that other developers can easily
-read and work with your code, and applications that implement the components can have consistency even when working with 
-lots of third-party code. The first few recommendations are designed to be a super-set of the previous recommendation.
+Il [Framework Interop Group][fig] (precedentemente noto come 'PHP Standards
+Group') ha proposto e approvato una serie di raccomandazioni di stile, note come
+[PSR-0][psr0], [PSR-1][psr1], [PSR-2][psr2] e [PSR-3][psr3]. Non lasciarti
+confondere dai nomi curiosi: queste raccomandazioni non sono che una lista di
+regole che alcuni progetti come Drupal, Zend, Symfony, CakePHP, phpBB, AWS SDK,
+FuelPHP, Lithium etc. stanno iniziando ad adottare. Puoi usarle in uno dei tuoi
+progetti, o continuare a usare il tuo stile personale.
 
-* [Read about PSR-0][psr0]
-* [Read about PSR-1][psr1]
-* [Read about PSR-2][psr2]
-* [Read about PSR-3][psr3]
+Teoricamente dovresti scrivere codice PHP che aderisce a uno o più di questi
+standard in modo che altri sviluppatori possano facilmente leggere e lavorare
+col tuo codice, e le applicazioni che implementano i componenti possono essere
+consistenti anche quando lavorano con molto codice di terze parti. Queste prime
+poche raccomandazioni sono progettate per essere una più estesa di quella
+precedente:
 
-You can use [PHP_CodeSniffer][phpcs] to check code against these recommendations.
-Use Fabien Potencier's [PHP Coding Standards Fixer][phpcsfixer] to automatically modify your code syntax so that it
-conforms with these standards, saving you from fixing each problem by hand.
+* [Leggi PSR-0][psr0]
+* [Leggi PSR-1][psr1]
+* [Leggi PSR-2][psr2]
+* [Leggi PSR-3][psr3]
 
-English is preferred for all symbol names and code infrastructure. Comments may be written in any language easily readable by all current and future parties who may be working on the codebase.
+Puoi usare [PHP_CodeSniffer][phpcs] per controllare che il codice rispetti
+queste raccomandazioni. Usa il [PHP Coding Standards Fixer][phpcsfixer] di
+Fabien Potencier per modificare automaticamente il tuo codice in modo che sia
+conforme a questi standard, risparmiandoti molto lavoro manuale.
+
+L'inglese è preferito per tutti i nomi di simboli e infrastrutture del codice.
+I commenti possono essere scritti in qualunque lingua facilmente comprensibili
+da tutte le parti presenti e future che dovranno lavorare sul codice.
 
 [fig]: http://www.php-fig.org/
 [psr0]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
