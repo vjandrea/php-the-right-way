@@ -1,16 +1,22 @@
 ---
 isChild: true
+title:   Design pattern
 ---
 
-## Design Patterns {#design_patterns_title}
+## Design pattern {#design_pattern_title}
 
-When you are building your application it is helpful to use common patterns in your code and common patterns for the
-overall structure of your project. Using common patterns is helpful because it makes it much easier to manage your code
-and lets other developers quickly understand how everything fits together.
+Quando stai costruendo la tua applicazione è d'aiuto usare dei pattern di
+progettazione del tuo codice e pattern comuni per la struttura
+complessiva del tuo progetto. Usare pattern comuni è utile perché rende molto
+più facile gestire il tuo codice e permette ad altri sviluppatori di capire
+velocemente come tutti i componenti lavorano tra loro.
 
-If you use a framework then most of the higher level code and project structure will be based on that framework, so a
-lot of the pattern decisions are made for you. But it is still up to you to pick out the best patterns to follow in the
-code you build on top of the framework. If, on the other hand, you are not using a framework to build your application
-then you have to find the patterns that best suit the type and size of application that you're building.
+Se usi un framework la maggior parte del codice di alto livello e la struttura
+del tuo progetto saranno basati su quel framework, quindi molte delle decisioni
+riguardanti i pattern vengono fatte al posto tuo. Ma è comunque una tua scelta
+quella dei migliori pattern da seguire nel codice che crei appoggiandoti a quel
+framework. Se, d'altra parte, non stai usando un framework per creare la tua
+applicazione allora dovrai trovare i pattern che si adattano meglio al tipo e
+alle dimensioni dell'applicazione che stai costruendo.
 
-* Continue reading on [Design Patterns](/pages/Design-Patterns.html)
+* Continua a leggere i [Design pattern](/pages/Design-Patterns.html)
