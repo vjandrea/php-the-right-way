@@ -42,10 +42,6 @@ nome di file in un path di file. Devi rimuovere "/", "../", i [byte nulli][6] o
 altri caratteri dal path in modo che non possa caricare file nascosti, non
 pubblici o con informazioni sensibili.
 
-Another example is passing options to be executed on the command line. This can be extremely dangerous
-(and is usually a bad idea), but you can use the built-in `escapeshellarg` function to sanitize the executed
-command's arguments.
-
 * [Impara a filtare i dati][1]
 * [Impara a usare `filter_var`][4]
 * [Impara a usare `filter_input`][5]
