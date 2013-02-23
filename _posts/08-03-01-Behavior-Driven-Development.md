@@ -4,19 +4,29 @@ isChild: true
 
 ## Behavior Driven Development {#behavior_driven_development_title}
 
-There are two different types of Behavior-Driven Development (BDD): SpecBDD and StoryBDD. SpecBDD focuses on technical behavior or code, while StoryBDD focuses on business or feature behaviors or interactions. PHP has frameworks for both types of BDD.
+Ci sono due differenti tipi di Behavior-Driven Development (BDD): SpecBDD e
+StoryBDD. Lo SpecBDD si concentra sul comportamento tecnico del codice, mentre
+lo StoryBDD si concentra sulle interazioni. PHP ha dei framework per entrambi
+i tipi di BDD.
 
-With StoryBDD, you write human-readable stories that describe the behavior of your application. These stories 
-can then be run as actual tests against your application. The framework used in PHP applications for StoryBDD
-is Behat, which is inspired by Ruby's [Cucumber](http://cukes.info/) project and implements the Gherkin DSL
-for describing feature behavior.
+Con lo StoryBDD, scrivi delle storie leggibili da esseri umani che descrivono il
+comportamento della tua applicazioni. Queste storia possono poi essere eseguite
+come veri e propri test per la tua applicazione. Il framework usato nelle
+applicazioni PHP per lo StoryBDD è Behat, che si ispira al progetto Ruby
+[Cucumber](http://cukes.info/) e implementa il DSL Gherkin per la descrizione
+di comportamenti futuri.
 
-With SpecBDD, you write specifications that describe how your actual code should behave. Instead of testing
-a function or method, you are describing how that function or method should behave. PHP offers the PHPSpec framework for this purpose. This framework is inspired
-by the [RSpec project](http://rspec.info/) for Ruby.
+Con lo SpecBDD, scrivi delle specifiche che descrivono come il tuo codice
+dovrebbe funzionare. Invece di testare una funzione o un metodo, descrivi come
+quella funzione o metodo dovrebbero comportarsi. PHP offre il framework PHPSpec
+per questo scopo. Questo framework si ispira al progetto Ruby
+[RSpec](http://rspec.info/).
 
-### BDD Links    
+### Link sul BDD
 
-* [Behat](http://behat.org/), the StoryBDD framework for PHP, inspired by Ruby's [Cucumber](http://cukes.info/) project;
-* [PHPSpec](http://www.phpspec.net/), the SpecBDD framework for PHP, inspired by Ruby's [RSpec](http://rspec.info/) project;
-* [Codeception](http://www.codeception.com) is a full-stack testing framework that uses BDD principles.
+* [Behat](http://behat.org/), il framework StoryBDD per PHP, ispirato al
+  progetto Ruby [Cucumber](http://cukes.info/);
+* [PHPSpec](http://www.phpspec.net/), il framework SpecBDD per PHP, ispirato al
+  progetto Ruby [RSpec](http://rspec.info/);
+* [Codeception](http://www.codeception.com) è un framework di testing completo
+  che adotta i principi BDD;
