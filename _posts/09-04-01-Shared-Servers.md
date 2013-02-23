@@ -1,7 +1,15 @@
 ---
 isChild: true
+title:   Server condivisi
 ---
 
-## Shared Servers {#shared_servers_title}
+## Server condivisi {#server_condivisi_title}
 
-PHP has shared servers to thank for its popularity. It is hard to find a host without PHP installed, but be sure it's the latest version. Shared servers allow you and other developers to deploy websites to a single machine. The upside to this is that it has become a cheap commodity. The downside is that you never know what kind of a ruckus your neighboring tenants are going to create; loading down the server or opening up security holes are the main concerns. If your project's budget can afford to avoid shared servers you should.
+PHP deve ringraziare i server condivisi della sua popolarità. È difficile
+trovare un host senza PHP installato, ma assicurati che sia l'ultima versione.
+I server condivisi permettono a te e altri sviluppatori di pubblicare siti sulla
+stessa machina. Il lato positivo è che si tratta di un sistema economico. Il
+lato negativo è che non sai mai che tipo di macello i tuoi vicini creeranno;
+il rallentamento del server o l'apertura di brecce di sicurezza sono pericoli da
+tenere in considerazione. Se il budget del tuo progetto può permetterti di
+evitare un server condiviso, fallo.
