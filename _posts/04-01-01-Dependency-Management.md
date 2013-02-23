@@ -1,10 +1,23 @@
-# Dependency Management {#dependency_management_title}
+---
+title: Gestione delle dipendenze
+---
 
-There are a ton of PHP libraries, frameworks, and components to choose from. Your project will likely use several of them — these are project dependencies. Until recently, PHP did not have a good way to manage these project dependencies. Even if you managed them manually, you still had to worry about autoloaders. No more.
+# Gestione delle dipendenze {#gestione_delle_dipendenze_title}
 
-Currently there are two major package management systems for PHP - Composer and PEAR. Which one is right for you? The answer is both.
+Ci sono moltissime librerie PHP, framework e componenti tra cui scegliere. Il
+tuo progetto, probabilmente, ne userà diversi. Queste sono dipendenze del
+progetto. Fino a poco tempo fa, PHP non aveva un buon modo per gestire le
+dipendenze del progetto. Anche se le gestivi manualmente, dovevi comunque
+preoccuparti degli autoloader. Non più.
 
- * Use **Composer** when managing dependencies for a single project.
- * Use **PEAR** when managing dependencies for PHP as a whole on your system.
+Attualmente ci sono due grandi sistemi di gestione dei pacchetti per PHP:
+Composer e PEAR. Qual è meglio per te? La risposta è entrambi.
 
-In general, Composer packages will be available only in the projects that you explicitly specify whereas a PEAR package would be available to all of your PHP projects. While PEAR might sound like the easier approach at first glance, there are advantages to using a project-by-project approach to your dependencies.
+ * Usa **Composer** quando gestisci le dipendenze di un singolo progetto.
+ * Usa **PEAR** quando gestisci le dipendenze di PHP per l'intero sistema.
+
+In genere, i pacchetti di Composer saranno disponibili solo nei progetti che
+specifichi esplicitamente, mentre i pacchetti di PEAR saranno disponibili per
+tutti i tuoi progetti PHP. Anche se PEAR può sembrare l'approccio più semplice
+a prima vista, ci sono vantaggi nell'utilizzo di un approccio
+progetto-per-progetto per le tue dipendenze.
