@@ -30,14 +30,14 @@ title: Risorse
 
 * [PagodaBox](https://pagodabox.com/)
 * [AppFog](https://appfog.com/)
-* [Heroku](https://heroku.com) (Il supporto PHP non è documentato ma basato su
-  una partnership stabile con Facebook
-  [[link]](http://net.tutsplus.com/tutorials/php/quick-tip-deploy-php-to-heroku-in-seconds/))
+* [Heroku](https://heroku.com) (Il supporto PHP non è documentato ma basato su una partnership stabile con Facebook
+  [link](http://net.tutsplus.com/tutorials/php/quick-tip-deploy-php-to-heroku-in-seconds/))
 * [fortrabbit](http://fortrabbit.com/)
-* [Engine Yard Orchestra PHP Platform](http://www.engineyard.com/products/orchestra/)
+* [Engine Yard Cloud](https://www.engineyard.com/products/cloud)
 * [Red Hat OpenShift Platform](http://www.redhat.com/products/cloud-computing/openshift/)
 * [dotCloud](http://docs.dotcloud.com/services/php/)
 * [AWS Elastic Beanstalk](http://aws.amazon.com/elasticbeanstalk/)
 * [cloudControl](https://www.cloudcontrol.com/)
 * [Windows Azure](http://www.windowsazure.com/)
 * [Zend Developer Cloud](http://www.phpcloud.com/develop)
+* [Google App Engine](https://developers.google.com/appengine/docs/php/gettingstarted/)

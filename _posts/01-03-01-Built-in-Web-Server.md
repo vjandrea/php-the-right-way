@@ -5,11 +5,10 @@ isChild: true
 
 ## Il Web server integrato {#il_web_server_integrato_title}
 
-Puoi iniziare a imparare PHP senza dover installare e configurare un Web server
-completo (è richiesto PHP 5.4). Per avviare il server, esegui il seguente
-comando dalla linea di comando nella Web root del tuo progetto:
+Puoi iniziare a studiare PHP senza dover installare e configurare un Web server completo (è richiesto PHP 5.4). Per avviare
+il server, esegui il seguente comando in un terminale dalla Web root del tuo progetto:
 
-    > php -S localhost:8000
+  > php -S localhost:8000
 
 * [Impara a usare il Web server da linea di comando integrato][cli-server]
 

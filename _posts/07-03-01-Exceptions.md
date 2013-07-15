@@ -45,6 +45,10 @@ catch(Fuel\Email\SendingFailedException $e)
 {
     // Il driver non è riuscito a mandare l'email
 }
+finally
+{
+    // Use this to let user know email was sent
+}
 {% endhighlight %}
 
 ### Eccezioni SPL

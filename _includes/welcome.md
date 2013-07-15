@@ -10,14 +10,19 @@ di codifica accettati e link a tutorial autoritari sparsi per il Web.
 _PHP: La Retta Via_ è (o sarà presto) tradotto in diverse lingue:
 
 * [Inglese](http://www.phptherightway.com)
+* Catalano (Link non funzionante... ci stiamo lavorando)
 * [Cinese](http://wulijun.github.com/php-the-right-way)
 * [Giapponese](http://ja.phptherightway.com)
+* [Coreano](http://wafe.github.io/php-the-right-way/)
+* Italiano (Link non funzionante... ci stiamo lavorando)
 * [Polacco](http://pl.phptherightway.com/)
 * [Portoghese](http://br.phptherightway.com/)
-* Russo (In Arrivo)
-* [Spagnolo](http://es.phptherightway.com)
+* [Russo](http://getjump.github.io/ru-php-the-right-way)
+* Spagnolo (Link non funzionante... ci stiamo lavorando)
 * [Ucraino](http://iflista.github.com/php-the-right-way/)
 * [Bulgaro](http://bg.phptherightway.com/)
+* [Tedesco](http://rwetzlmayr.github.io/php-the-right-way/)
+* [Turco](http://hkulekci.github.io/php-the-right-way/)
 
 ## Avvertenza
 
