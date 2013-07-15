@@ -22,9 +22,8 @@ configura le seguenti opzioni nel tuo `php.ini`:
     log_errors = On
 
 > Il valore `-1` visualizzerà ogni possibile errore, anche quando nuovi livelli
-verranno aggiunti in versioni future di PHP. Anche la costante `E_ALL` si
-comporta in questo modo a partire da PHP 5.4.
-- [php.net](http://php.net/manual/it/function.error-reporting.php)
+> verranno aggiunti in versioni future di PHP. Anche la costante `E_ALL` si
+> comporta in questo modo a partire da PHP 5.4. - [php.net](http://php.net/manual/it/function.error-reporting.php)
 
 Il livello di errore `E_STRICT` è stato introdotto nella versione 5.3.0 e non è
 parte di `E_ALL`, tuttavia lo è diventato nella 5.4.0. Questo significa che se

@@ -7,11 +7,11 @@ isChild: true
 Da [Wikipedia](http://it.wikipedia.org/wiki/Test_Driven_Development):
 
 > Il Test Driven Development, in sigla TDD (in italiano: Sviluppo guidato dalle
-verifiche) è un processo di sviluppo del software in cui lo sviluppo vero e
-proprio è preceduto (e guidato, driven) dalla stesura di test automatici. Il
-processo si articola sulla ripetizione di brevi cicli di sviluppo e collaudo
-(noti come "cicli TDD", TDD cycles) suddivisi in tre fasi successive,
-sintetizzate dal motto "Red-Green-Refactor".
+> verifiche) è un processo di sviluppo del software in cui lo sviluppo vero e
+> proprio è preceduto (e guidato, driven) dalla stesura di test automatici. Il
+> processo si articola sulla ripetizione di brevi cicli di sviluppo e collaudo
+> (noti come "cicli TDD", TDD cycles) suddivisi in tre fasi successive,
+> sintetizzate dal motto "Red-Green-Refactor".
 
 Ci sono molti modi diversi di testare la tua applicazione.
 
@@ -53,20 +53,20 @@ test per applicazioni PHP, ma ci sono diverse alternative:
 Da [Wikipedia](http://en.wikipedia.org/wiki/Integration_testing):
 
 > Integration testing (sometimes called Integration and Testing, abbreviated
-"I&T") is the phase in software testing in which individual software modules are
-combined and tested as a group. It occurs after unit testing and before
-validation testing. Integration testing takes as its input modules that have
-been unit tested, groups them in larger aggregates, applies tests defined in an
-integration test plan to those aggregates, and delivers as its output the
-integrated system ready for system testing.
+> "I&T") is the phase in software testing in which individual software modules are
+> combined and tested as a group. It occurs after unit testing and before
+> validation testing. Integration testing takes as its input modules that have
+> been unit tested, groups them in larger aggregates, applies tests defined in an
+> integration test plan to those aggregates, and delivers as its output the
+> integrated system ready for system testing.
 
 > L'integration testing (a volte chiamato Integration and Testing, abbreviato
-"I&T") è la fase del testing software in cui i moduli individuali vengono
-combinati e testati come un insieme. Si piazza dopo lo unit testing e prima del
-validation testing. L'integration testing prende come input moduli su cui è già
-stato effettuato unit testing, li raggruppa in aggregati più grandi, applica i
-test definiti nel piano di integration testing a questi aggregati e invia come
-output il sistema integrato, pronto per l'esecuzione del system testing.
+> "I&T") è la fase del testing software in cui i moduli individuali vengono
+> combinati e testati come un insieme. Si piazza dopo lo unit testing e prima del
+> validation testing. L'integration testing prende come input moduli su cui è già
+> stato effettuato unit testing, li raggruppa in aggregati più grandi, applica i
+> test definiti nel piano di integration testing a questi aggregati e invia come
+> output il sistema integrato, pronto per l'esecuzione del system testing.
 
 Molti degli strumenti per lo unit testing possono essere usati anche per
 l'integration testing, giacché molti dei principi di base sono gli stessi.
