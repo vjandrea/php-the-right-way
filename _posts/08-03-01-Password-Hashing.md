@@ -17,6 +17,7 @@ stessa stringa d'origine, ma non puoi determinare la stringa di origine. Se l'ha
 potrebbero (sfortunatamente) usare la stessa password per altri servizi. Dunque, è importante gestire la sicurezza
 seriamente.
 
+
 **Eseguire l'hashing con `password_hash`**
 
 In PHP 5.5 è stato introdotto `password_hash`. In questo momento utilizza BCrypt, l'algoritmo più potente attualmente
@@ -25,6 +26,7 @@ per fornire compatibilità per PHP >= 5.3.7.
 
 Nell'esempio sotto calcoliamo l'hash di una stringa, quindi confrontiamo l'hash con una nuova stringa. Poiché le nostre
 stringhe di origine sono differenti ('secret-password' e 'bad-password') questo login fallirà.
+
 
 {% highlight php %}
 <?php
