@@ -162,12 +162,14 @@ richiede la conoscenza di una classe concretamente definita.
 
 ## Strategy
 
-With the strategy pattern you encapsulate specific families of algorithms allowing the client class responsible for 
-instantiating a particular algorithm to have no knowledge of the actual implementation.
-There are several variations on the strategy pattern, the simplest of which is outlined below:
+Con lo strategy pattern puoi incapsulare famiglie di algoritmi specifici, facendo in modo che la classe responsabile
+per la creazione di un particolare algoritmo non conosca la vera implementazione.
 
-This first code snippet outlines a family of algorithms; you may want a serialized array, some JSON or maybe 
-just an array of data:
+Ci sono diverse variazioni dello strategy pattern. Ecco la più semplice:
+
+Questo primo snippet di codice delinea una famiglia di algoritmi; potresti volere un array serializzato, una stringa
+JSON o un semplice array di dati:
+
 {% highlight php %}
 <?php
 
@@ -201,16 +203,17 @@ class ArrayOutput implements OutputInterface
 }
 {% endhighlight %}
 
-By encapsulating the above algorithms you are making it nice and clear in your code that other developers can easily 
-add new output types without affecting the client code.
+Incapsulando gli algoritmi permetti agli sviluppatore di aggiungere altri tipi di output senza che questo influisca sul
+codice che li utilizza.
 
-You will see how each concrete 'output' class implements an OutputInterface - this serves two purposes, primarily it
-provides a simple contract which must be obeyed by any new concrete implementations. Secondly by implementing a common
-interface you will see in the next section that you can now utilise [Type Hinting](http://php.net/manual/en/language.oop5.typehinting.php) to ensure that the client which is utilising these behaviours is of the correct type in
-this case 'OutputInterface'.
+Avrai notato che ogni classe di output implementa ```OutputInterface```. Questo serve per due motivi: in primo luogo
+fornisce una serie di regole a cui tutte le implementazioni si dovranno attenere. Inoltre, implementando un'interfaccia
+comune potrai utilizzare il [Type Hinting](http://php.net/manual/it/language.oop5.typehinting.php) (come vedrai fare
+nella prossima sezione) per assicurarti che il client stia effettivamente utilizzando un oggetto del tipo corretto.
 
-The next snippet of code outlines how a calling client class might use one of these algorithms and even better set the
-behaviour required at runtime:
+Il prossimo snippet mostra come una classe può usare uno di questi algoritmi e, ancora meglio, impostare quello
+preferito durante il runtime:
+
 {% highlight php %}
 <?php
 
@@ -230,25 +233,30 @@ class SomeClient
 }
 {% endhighlight %}
 
-The calling client class above has a private property which must be set at runtime and be of type 'OutputInterface'
-once this property is set a call to loadOutput() will call the load() method in the concrete class of the output type
-that has been set.
+La classe qui sopra ha una proprietà privata che dev'essere impostata durante il runtime ed essere del tipo
+```OutputInterface```. Una volta che questa proprietà sarà stata impostata, una chiamata a ```loadOutput()``` chiamerà
+il metodo ```load()``` dell'oggetto output impostato.
+
 {% highlight php %}
 <?php
 
 $client = new SomeClient();
 
-// Want an array?
+// Vuoi un array?
 $client->setOutput(new ArrayOutput());
 $data = $client->loadOutput();
 
-// Want some JSON?
+// Vuoi del JSON?
 $client->setOutput(new JsonStringOutput());
+$data = $client->loadOutput();
+
+// Vuoi un array serializzato?
+$client->setOutput(new SerializedArrayOutput());
 $data = $client->loadOutput();
 
 {% endhighlight %}
 
-* [Strategy pattern on Wikipedia](http://en.wikipedia.org/wiki/Strategy_pattern)
+* [Strategy pattern su Wikipedia](http://it.wikipedia.org/wiki/Strategy_pattern)
 
 ## Front Controller
 
