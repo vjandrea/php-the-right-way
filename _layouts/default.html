@@ -8,15 +8,15 @@
         <meta property="og:image" content="http://www.phptherightway.com/images/og-logo.png"/>
         <meta property="og:title" content="PHP: La Retta Via"/>
         <meta property="og:description" content="Una raccolta di migliori pratiche, standard di codifica accettati e link a tutorial PHP di qualità sparsi per il Web"/>
-        <meta property="og:url" content="http://www.phptherightway.com"/>
+        <meta property="og:url" content="http://alessandro1997.github.io/php-the-right-way/"/>
         <meta property="og:site_name" content="PHP: La Retta Via"/>
         <meta property="og:type" content="website"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
         <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One|Droid+Serif:400,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="/styles/all.css"/>
-        <link rel="stylesheet" href="/styles/print.css" media="print, handheld"/>
-        <link rel="stylesheet" href="/styles/syntax.css"/>
-        <link rel="icon" href="/images/favicon.png" type="image/png"/>
+        <link rel="stylesheet" href="/php-the-right-way/styles/all.css"/>
+        <link rel="stylesheet" href="/php-the-right-way/styles/print.css" media="print, handheld"/>
+        <link rel="stylesheet" href="/php-the-right-way/styles/syntax.css"/>
+        <link rel="icon" href="/php-the-right-way/images/favicon.png" type="image/png"/>
         <script>
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-362072-7']);
@@ -37,10 +37,10 @@
                 {% for post in site.posts reversed %}
                     {% if post.isChild and lastIsChild != true %}<ul>{% endif %}
                     {% if lastIsChild and post.isChild != true %}</ul>{% endif %}
-                    <li><a href="/#{{ post.title | downcase | replace:' ','_' | replace:'(','' | replace:')','' | replace:'.','' | replace:'-','' | replace:"'",'' }}">{{ post.title }}</a>
+                    <li><a href="/php-the-right-way/#{{ post.title | downcase | replace:' ','_' | replace:'(','' | replace:')','' | replace:'.','' | replace:'-','' | replace:"'",'' }}">{{ post.title }}</a>
                     {% assign lastIsChild = post.isChild %}
                 {% endfor %}
-                <li><a href="/#site-footer">Riconoscimenti</a></li>
+                <li><a href="#site-footer">Riconoscimenti</a></li>
             </ul>
         </nav>
         <div class="site-content">
