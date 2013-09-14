@@ -31,5 +31,5 @@ community parlano a questi eventi, quindi è una buona opportunità per imparare
 [php-conf]: http://php.net/conferences/index.php
 [phpc-twitter]: https://twitter.com/phpc
 [php-programmers-gplus]: https://plus.google.com/u/0/communities/104245651975268426012
-[php-irc]: http://webchat.freenode.net/
+[php-irc]: http://webchat.freenode.net/?channels=phpc
 [php-so]: http://stackoverflow.com/questions/tagged/php

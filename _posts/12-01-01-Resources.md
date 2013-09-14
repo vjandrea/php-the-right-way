@@ -41,3 +41,4 @@ title: Risorse
 * [Windows Azure](http://www.windowsazure.com/)
 * [Zend Developer Cloud](http://www.phpcloud.com/develop)
 * [Google App Engine](https://developers.google.com/appengine/docs/php/gettingstarted/)
+* [Jelastic](http://jelastic.com/)

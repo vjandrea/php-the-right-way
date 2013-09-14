@@ -6,7 +6,8 @@ title:   Interfaccia da linea di comando
 ## Interfaccia da linea di comando {#interfaccia_da_linea_di_comando_title}
 
 PHP è stato creato principalmente per scrivere applicazioni Web, ma è anche utile nella creazione di programmi da linea
-di comando (CLI). I programmi da linea di comando aiutano ad automatizzare compiti come il testing, la pubblicazione e l'amministrazione dell'applicazione.
+di comando (CLI). I programmi da linea di comando aiutano ad automatizzare compiti come il testing, la pubblicazione e
+l'amministrazione dell'applicazione.
 
 I programmi PHP da linea di comando sono potenti perché puoi usare il codice della tua applicazione direttament esenza
 dovere creare una GUI sicura. Accertati solo di non mettere gli script CLI nella root pubblica!

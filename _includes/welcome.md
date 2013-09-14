@@ -1,16 +1,24 @@
 # Benvenuto
 
-Ci sono molte informazioni datate sul Web che portano gli utenti PHP fuori
-strada, propagando cattive pratiche e cattivo codice. Deve finire. _PHP: La
-Retta Via_ è un manuale facile da leggere per migliori pratiche di PHP, standard
-di codifica accettati e link a tutorial autoritari sparsi per il Web.
+Ci sono molte informazioni datate sul Web che portano gli utenti PHP fuori strada, propagando cattive pratiche e cattivo
+codice. Deve finire. _PHP: La Retta Via_ è un manuale facile da leggere per migliori pratiche di PHP, standard di
+codifica accettati e link a tutorial autoritari sparsi per il Web e a quelle che gli autori pensano essere attualmente
+le migliori pratiche.
+
+_Non c'è un solo modo corretto di usare PHP_. Questo sito Web mira a introdurre ai nuovi sviluppatori PHP alcuni
+argomenti che potrebbero non prendere in considerazione finché non è troppo tardi, e mira a fornire ai professionisti
+alcune idee fresche riguardo procedure che hanno eseguito per anni senza mai riconsiderarle. Questo sito Web inoltre
+non ti dirà mai quali strumenti usare, ma invece offrirà suggerimenti per opzioni multiple, spiegando le differenze
+nell'approccio e nei casi d'uso ove possibile.
+
+Questo è un documento in sviluppo e continuerà a essere aggiornato con nuove informazioni utili ed esempi non appena
+saranno disponibili.
 
 ## Traduzione
 
 _PHP: La Retta Via_ è (o sarà presto) tradotto in diverse lingue:
 
-* [Inglese](http://www.phptherightway.com)
-* Catalano (Link non funzionante... ci stiamo lavorando)
+* [Inglese](http://www.phptherightway.com) * Catalano (Link non funzionante... ci stiamo lavorando)
 * [Cinese](http://wulijun.github.com/php-the-right-way)
 * [Giapponese](http://ja.phptherightway.com)
 * [Coreano](http://wafe.github.io/php-the-right-way/)
@@ -24,26 +32,14 @@ _PHP: La Retta Via_ è (o sarà presto) tradotto in diverse lingue:
 * [Tedesco](http://rwetzlmayr.github.io/php-the-right-way/)
 * [Turco](http://hkulekci.github.io/php-the-right-way/)
 
-## Avvertenza
-
-_Non c'è un modo canonico di usare PHP_. Tuttavia, questo sito Web è una modesta
-mostra di migliori pratiche, opzioni disponibili e buone informazioni. Mira a
-introdurre i nuovi sviluppatori PHP e a far ricredere i professionisti con
-nuove idee.
-
-Questo è un documento attivo e continuerà a essere aggiornato con nuove
-informazioni utili ed esempi quando saranno disponibili.
-
 ## Come contribuire
 
-Aiuta questo sito Web a diventare la migliore risorsa per i nuovi progrmmatori
-PHP! [Contribuisci su GitHub][1]
+Aiuta questo sito Web a diventare la migliore risorsa per i nuovi progrmmatori PHP! [Contribuisci su GitHub][1]
 
 ## Spargi la voce!
 
-_PHP: La Retta Via_ ha immagini banner che puoi usare sul tuo sito Web. Mostra
-il tuo supporto e fai sapere ai nuovi sviluppatori PHP dove possono trovare
-buone informazioni.
+_PHP: La Retta Via_ ha immagini banner che puoi usare sul tuo sito Web. Mostra il tuo supporto e fai sapere ai nuovi
+sviluppatori PHP dove possono trovare buone informazioni.
 
 [Vedi banner][2]
 
