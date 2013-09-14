@@ -22,7 +22,7 @@ _PHP: La Retta Via_ è (o sarà presto) tradotto in diverse lingue:
 * [Cinese](http://wulijun.github.com/php-the-right-way)
 * [Giapponese](http://ja.phptherightway.com)
 * [Coreano](http://wafe.github.io/php-the-right-way/)
-* Italiano (Link non funzionante... ci stiamo lavorando)
+* [Italiano](http://alessandro1997.github.io/php-the-right-way/)
 * [Polacco](http://pl.phptherightway.com/)
 * [Portoghese](http://br.phptherightway.com/)
 * [Russo](http://getjump.github.io/ru-php-the-right-way)
