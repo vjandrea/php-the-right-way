@@ -18,7 +18,8 @@ saranno disponibili.
 
 _PHP: La Retta Via_ è (o sarà presto) tradotto in diverse lingue:
 
-* [Inglese](http://www.phptherightway.com) * Catalano (Link non funzionante... ci stiamo lavorando)
+* [Inglese](http://www.phptherightway.com)
+* Catalano (Link non funzionante... ci stiamo lavorando)
 * [Cinese](http://wulijun.github.com/php-the-right-way)
 * [Giapponese](http://ja.phptherightway.com)
 * [Coreano](http://wafe.github.io/php-the-right-way/)
