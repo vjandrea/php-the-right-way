@@ -15,8 +15,8 @@ dai nomi curiosi: queste raccomandazioni non sono che una lista di regole che al
 CakePHP, phpBB, AWS SDK, FuelPHP, Lithium etc. stanno iniziando ad adottare. Puoi usarle in uno dei tuoi progetti, o
 continuare a usare il tuo stile personale.
 
-Teoricamente dovresti scrivere codice PHP che aderisce ad uno o più di questi standard in modo che altri sviluppatori
-possano facilmente leggere e lavorare col tuo codice, e le applicazioni che implementano i componenti possono essere
+Teoricamente dovresti scrivere codice PHP che aderisce ad uno o più di questi standard, in modo che altri sviluppatori
+possano facilmente leggere e lavorare col tuo codice, e le applicazioni che implementano i componenti possano essere
 consistenti anche quando lavorano con molto codice di terze parti. Queste prime poche raccomandazioni sono progettate per
 essere una più estesa di quella precedente:
 
