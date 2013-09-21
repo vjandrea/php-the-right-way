@@ -20,8 +20,8 @@ seriamente.
 
 **Eseguire l'hashing con `password_hash`**
 
-In PHP 5.5 è stato introdotto `password_hash`. In questo momento utilizza BCrypt, l'algoritmo più potente attualmente
-supportato da PHP. Sarà aggiornato in futuro per supportare altri algoritmi. La libreria `password_compat` è stata creata
+In PHP 5.5 è stato introdotta la funzione `password_hash`. In questo momento utilizza l'algoritmo BCrypt, che è il più potente
+attualmente supportato da PHP. Sarà aggiornato in futuro per supportare altri algoritmi. La libreria `password_compat` è stata creata
 per fornire compatibilità per PHP >= 5.3.7.
 
 Nell'esempio sotto calcoliamo l'hash di una stringa, quindi confrontiamo l'hash con una nuova stringa. Poiché le nostre
