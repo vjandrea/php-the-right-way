@@ -24,12 +24,14 @@ In PHP 5.5 è stato introdotto `password_hash`. In questo momento utilizza BCryp
 supportato da PHP. Sarà aggiornato in futuro per supportare altri algoritmi. La libreria `password_compat` è stata creata
 per fornire compatibilità per PHP >= 5.3.7.
 
+<<<<<<< HEAD
 Nell'esempio sotto calcoliamo l'hash di una stringa, quindi confrontiamo l'hash con una nuova stringa. Poiché le nostre
 stringhe di origine sono differenti ('secret-password' e 'bad-password') questo login fallirà.
 
 
 {% highlight php %}
 <?php
+
 require 'password.php';
 
 $passwordHash = password_hash('secret-password', PASSWORD_DEFAULT);
