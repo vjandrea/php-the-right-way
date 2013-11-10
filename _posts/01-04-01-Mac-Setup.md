@@ -6,7 +6,7 @@ title: Configurazione Mac
 ## Configurazione Mac  {#configurazione_mac_title}
 
 OSX contiene una versione prepacchettizata di PHP ma è generalmente più vecchia dell'ultima versione stabile. Lion
-contiene PHP 5.3.6 e Mountain Lion ha PHP 5.3.10.
+contiene PHP 5.3.6 e Mountain Lion ha PHP 5.4.17.
 
 Per aggiornare PHP su OSX puoi installarlo tramite un [gestore di pacchetti][mac-package-managers] per Mac,
 è consigliato usare [php-osx][php-osx-downloads] di Liip.
