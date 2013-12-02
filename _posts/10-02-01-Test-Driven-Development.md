@@ -34,10 +34,11 @@ requisito.
 [PHPUnit](http://phpunit.de) è lo standard de-facto per la scrittura di unit test per applicazioni PHP, ma ci sono
 diverse alternative:
 
-* [SimpleTest](http://simpletest.org)
-* [Enhance PHP](http://www.enhance-php.com/)
-* [PUnit](http://punit.smf.me.uk/)
 * [atoum](https://github.com/atoum/atoum)
+* [Enhance PHP](https://github.com/Enhance-PHP/Enhance-PHP)
+* [PUnit](http://punit.smf.me.uk/)
+* [SimpleTest](http://simpletest.org)
+
 
 ### Integration testing
 
