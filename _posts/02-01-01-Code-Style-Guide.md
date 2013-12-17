@@ -20,12 +20,12 @@ possano facilmente leggere e lavorare col tuo codice, e le applicazioni che impl
 consistenti anche quando lavorano con molto codice di terze parti. Queste prime poche raccomandazioni sono progettate per
 essere una più estesa di quella precedente:
 
-* [Leggi PSR-0][psr0]
-* [Leggi PSR-1][psr1]
-* [Leggi PSR-2][psr2]
-* [Leggi PSR-3][psr3]
+* [Leggi il PSR-0][psr0]
+* [Leggi il PSR-1][psr1]
+* [Leggi il PSR-2][psr2]
 * [Leggi i PEAR Coding Standards][pear-cs]
 * [Leggi i Zend Coding Standards][zend-cs]
+* [Leggi i Symfony Coding Standards][symfony-cs]
 
 Puoi usare [PHP_CodeSniffer][phpcs] per controllare che il codice rispetti queste raccomandazioni, e plugin per editor di
 testo come [Sublime Text 2][st-cs] per avere feedback in tempo reale.
@@ -43,6 +43,7 @@ qualunque lingua purché facilmente comprensibili da tutte le parti presenti e f
 [psr3]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-3-logger-interface.md
 [pear-cs]: http://pear.php.net/manual/en/standards.php
 [zend-cs]: http://framework.zend.com/wiki/display/ZFDEV2/Coding+Standards
+[symfony-cs]: http://symfony.com/doc/current/contributing/code/standards.html
 [phpcs]: http://pear.php.net/package/PHP_CodeSniffer/
 [st-cs]: https://github.com/benmatselby/sublime-phpcs
 [phpcsfixer]: http://cs.sensiolabs.org/

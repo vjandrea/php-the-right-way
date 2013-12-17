@@ -48,7 +48,7 @@ FROM users`, che cancellerà tutti i tuoi utenti! Invece, dovresti sanitizzare l
 <?php
 $pdo = new PDO('sqlite:users.db');
 $stmt = $pdo->prepare('SELECT name FROM users WHERE id = :id');
-$stmt->bindParam(':id', $_GET['id'], PDO::PARAM_INT); //<-- Sanitizzato automaticamente da PDO
+$stmt->bindParam(':id', $_GET['id'], PDO::PARAM_INT); // <-- Sanitizzato automaticamente da PDO
 $stmt->execute();
 {% endhighlight %}
 

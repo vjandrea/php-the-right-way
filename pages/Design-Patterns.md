@@ -5,8 +5,9 @@ title: Design Pattern
 
 # Design Pattern
 
-Ci sono diversi modi di strutturare il codice e il progetto per la tua applicazione Web, e puoi sforzarti quanto preferisci nell'architettarli. Generalmente, però, è una buona idea seguire dei modelli comuni, in modo da rendere il tuo codice più
-semplice da gestire per te e più facile da leggere per gli altri.
+Ci sono diversi modi di strutturare il codice e il progetto per la tua applicazione Web, e puoi sforzarti quanto
+preferisci nell'architettarli. Generalmente, però, è una buona idea seguire dei modelli comuni, in modo da rendere il
+tuo codice più semplice da gestire per te e più facile da capire per gli altri.
 
 * [Modelli architetturali su Wikipedia](https://en.wikipedia.org/wiki/Architectural_pattern)
 * [Design pattern su Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
@@ -53,12 +54,11 @@ Questo codice usa una _factory_ per creare l'oggetto Automobile. Ci sono due pot
 codice in questo modo. Il primo è che, se in futuro avrai bisogno di rinominare, modificare o sostituire la classe
 Automobile, dovrai solamente modificare la _factory_ invece di ogni riga del tuo codice che usa la classe Automobile. Il
 secondo beneficio è che, se creare un oggetto è un lavoro complicato, puoi fare tutto nella _factory_ invece di ripeterlo
-ogni volta che vuoi creare una nuova  istanza.
+ogni volta che vuoi creare una nuova istanza.
 
 Usare il _Factory Method_ non è sempre necessario (né saggio). Il codice di esempio mostrato qui è così semplice che
 aggiungere una _factory_ significa solo complicare inutilmente l'applicazione. Tuttavia, se stai creando un progetto
 grande o complesso, potresti volerti risparmiare molta fatica usando le _factory_.
-
 
 * [Factory Method su Wikipedia](https://it.wikipedia.org/wiki/Factory_method)
 
@@ -155,8 +155,6 @@ tua applicazione, riducendo la testabilità. Nella maggior parte dei casi l'inie
 essere usata invece di una classe singleton. Utilizzare l'iniezione delle dipendenze significa evitare di introdurre
 legami inutili nel design della nostra applicazione, giacchè l'oggetto che utilizza la risorsa condivisa o globale non
 richiede la conoscenza di una classe concretamente definita.
-
->>>>>>> upstream/gh-pages
 
 * [Singleton su Wikipedia](https://it.wikipedia.org/wiki/Singleton)
 
@@ -270,20 +268,14 @@ richiesta (come la sanificazione dell'input).
 
 ## Model-View-Controller
 
-Il pattern _Model-View-Controller_ (MVC), e i collegati HMVC e MVVM,  permettono di dividere il codice in oggetti logici
-che hanno funzioni altamente specifiche. I modelli servono come layer di accesso ai dati, dove i dati vengono recuperati
+Il pattern _Model-View-Controller_ (MVC), e i "parenti" HMVC e MVVM, permettono di dividere il codice in oggetti logici
+che hanno funzioni altamente specifiche. I modelli servono come livello di accesso ai dati, dove i dati vengono recuperati
 e restituiti in formati utilizzabili all'interno della tua applicazione. I controller gestiscono la richiesta, processano
 le informazioni restituite dai modelli e caricano le viste che inviano in risposta. Le viste sono dei template (markup,
 XML ecc.) che vengono inviati in risposta al browser Web.
 
 MVC è il pattern architetturale più comune usato nei [framework PHP](https://github.com/codeguy/php-the-right-way/wiki/Frameworks)
 famosi.
-
-Il pattern model-view-controller (MVC) e i suoi parenti HMVC e MVVM ti consentono di dividere il codice in oggetti logici
-che eseguono compiti specifici. I modelli sono un livello di accesso ai dati, dove questi sono recuperati e restituiti in
-formati utilizzabili nella tua applicazione. I controller gestiscono la richiesta, processano i dati restituiti dai modelli
-e caricano le visite da mandare come risposta. Le viste sono template (markup, XML etc.) da visualizzare che vengono inviati
-come risposta la browser web.
 
 Impara di più riguardo l'MVC e i pattern a esso collegati:
 
