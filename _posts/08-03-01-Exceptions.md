@@ -41,7 +41,7 @@ catch(Fuel\Email\SendingFailedException $e)
 }
 finally
 {
-    // Use this to let user know email was sent
+    // Eseguito anche se l'eccezione non è stata lanciata, e prima che la normale esecuzione riprenda
 }
 {% endhighlight %}
 

@@ -11,7 +11,7 @@ si fa parte di un team di sviluppatori.
 Se stai sviluppando su Windows e pubblicando su Linux (o qualunque sistema non Windows) o se stai sviluppando in un team,
 potresti prendere in considerazione l'utilizzo di una macchina virtuale. Sembra complicato, ma tramite [Vagrant][vagrant] puoi
 configurare con semplicità una macchina virtuale. Questa macchina di base può essere configurata
-manualmente, ma puoi usare un software di gestione come [Puppet][puppet] o [Chef][chef] che lo farà per te. Questo è
+manualmente, ma puoi usare un software di gestione come [Puppet][puppet] o [Chef][chef] che lo faranno per te. Questo è
 un buon modo per assicurarsi che diverse macchine vengano configurate nella stessa identica maniera e rimuove la
 necessità per complicate liste di comandi di configurazione. Puoi anche "distruggere" la macchina e ricrearla senza
 troppa fatica, rendendo facile la creazione di un'installazione "fresca".
@@ -25,12 +25,15 @@ Se ti serve un piccolo aiuto per iniziare a usare Vagrant eccoti due servizi che
 
 - [Rove][rove]: servizio che permette di generare build di Vagrant tipiche, tra cui PHP. Il provisioning è
   eseguito con Chef.
-- [Puphpet][puphpet]: un semplice programma per configurare macchine virtuali **fortemente orientato
-  verso PHP**. Oltre alle VM locali, può essere usato per pubblicare anche servizi cloud. Il provisioning è eseguito
+- [Puphpet][puphpet]: un semplice programma per configurare macchine virtuali. **Fortemente orientato
+  a PHP**. Oltre alle VM locali, può essere usato per pubblicare anche servizi cloud. Il provisioning è eseguito
   con Puppet.
+- [Protobox][protobox]: è un layer costruito su Vagrant e una GUI web per configurare macchine virtuali per lo sviluppo
+  Web. Un singolo documento YAML controlla tutto ciò che è installato sulla macchina virtuale.
 
 [vagrant]: http://vagrantup.com/
 [puppet]: http://www.puppetlabs.com/
 [chef]: http://www.opscode.com/
 [rove]: http://rove.io/
 [puphpet]: https://puphpet.com/
+[protobox]: http://getprotobox.com/

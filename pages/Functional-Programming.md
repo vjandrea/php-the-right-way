@@ -5,27 +5,21 @@ title: Programmazione funzionale in PHP
 
 # Programmazione funzionale in PHP
 
-PHP supporta funzioni di prima classe, il che significa che una funzione può
-essere assegnata a una variabile. Sia alle funzioni definite dall'utente che
-alle funzioni native ci si può riferire tramite una variabile in modo da
-invocarle dinamicamente. Le funzioni possono essere passate come argomenti di
-altre funzioni (una caratteristica chiamata funzioni di ordine superiore) e
-una funzione può restituire altre funzioni.
+PHP supporta funzioni di prima classe, il che significa che una funzione può essere assegnata a una variabile. Sia alle
+funzioni definite dall'utente che alle funzioni native ci si può riferire tramite una variabile in modo da invocarle
+dinamicamente. Le funzioni possono essere passate come argomenti di altre funzioni e una funzione può restituire altre
+funzioni (una caratteristica chiamata funzioni di ordine superiore).
 
-La ricorsione, una caratteristicache permette a una funzione di chiamare se
-stessa, è supportata dal linguaggio, ma la maggior parte del codice PHP si basa
-sull'iterazione.
+La ricorsione, una caratteristicache permette a una funzione di chiamare se stessa, è supportata dal linguaggio, ma la
+maggior parte del codice PHP si basa sull'iterazione.
 
-Le funzioni anonime (che supportano le chiusure) sono state presenti da PHP 5.3
-(2009).
+Le funzioni anonime (che supportano le chiusure) sono state presenti da PHP 5.3 (2009).
 
-PHP 5.4 ha aggiunto la possibilità di legare le chiusure allo scope di un
-oggetto e ha migliorato il supporto per i callback, in modo che possano essere
-usati quasi sempre in modo intercambiabile con le funzioni anonime.
+PHP 5.4 ha aggiunto la possibilità di legare le chiusure allo scope di un oggetto e ha migliorato il supporto per i
+callback, in modo che possano essere usati quasi sempre in modo intercambiabile con le funzioni anonime.
 
-L'uso più comune delle funzioni di ordine superiore si ha nell'implementazione
-di un pattern strategico. La funzione nativa `array_filter` richiede un array
-di input (dati) e una funzione (una strategia o un callback) usata come filtro
+L'uso più comune delle funzioni di ordine superiore si ha nell'implementazione di un pattern strategico. La funzione
+nativa `array_filter` richiede un array di input (dati) e una funzione (una strategia o un callback) usata come filtro
 per ogni elemento dell'array.
 
 {% highlight php %}
@@ -48,15 +42,12 @@ $output = array_filter($input, function($item) {
 print_r($output);
 {% endhighlight %}
 
-Una chiusura è una funzione anonima che può accedere a variabili importate
-dallo scope esterno senza usare variabili globali. In teoria, una chiusura è
-una funzione con alcuni argomenti chiusi (fissi) dall'ambiente in cui è
-definita. Le chiusure possono aggirare le restrizioni imposte dallo scope delle
-variabili in un modo pulito.
+Una chiusura è una funzione anonima che può accedere a variabili importate dallo scope esterno senza usare variabili
+globali. In teoria, una chiusura è una funzione con alcuni argomenti chiusi (fissi) dall'ambiente in cui è definita. Le
+chiusure possono aggirare le restrizioni imposte dallo scope delle variabili in un modo pulito.
 
-Nel prossimo esempio useremo le chiusure per definire una funzione che
-restituisce un singolo filtro per `array_filter`, preso da una famiglia di
-funzioni filtro.
+Nel prossimo esempio useremo le chiusure per definire una funzione che restituisce un singolo filtro per `array_filter`,
+preso da una famiglia di funzioni filtro.
 
 {% highlight php %}
 <?php
@@ -80,16 +71,14 @@ $output = array_filter($input, criteria_greater_than(3));
 print_r($output); // items > 3
 {% endhighlight %}
 
-Ogni funzione filtro della famiglia accetta solo elementi maggiori di un valore
-minimo. Il filtro restituito da `criteria_greater_than` è una chiusura con
-l'argomento `$min` chiuso da un valore nello scope (passato come argomento
-quando viene chiamata `criteria_greater_than`).
+Ogni funzione filtro della famiglia accetta solo elementi maggiori di un valore minimo. Il filtro restituito da
+`criteria_greater_than` è una chiusura con l'argomento `$min` chiuso da un valore nello scope (passato come argomento
+  quando viene chiamata `criteria_greater_than`).
 
-Il binding statico è usato di default per importare la variabile `$min` nella
-funzione creata. Per le vere chiusure con binding dinamico bisognerebbe usare
-un riferimento nell'importazione. Immagina una libreria per il templating o
-la validazione dell'input, dove la chiusura è definita per catturare variabili
-nello scope e accedere a essere dopo quando la funzione anonima viene eseguita.
+Il binding statico è usato di default per importare la variabile `$min` nella funzione creata. Per le vere chiusure con
+binding dinamico bisognerebbe usare un riferimento nell'importazione. Immagina una libreria per il templating o la
+validazione dell'input, dove la chiusura è definita per catturare variabili nello scope e accedere a essere dopo quando
+la funzione anonima viene eseguita.
 
 * [Leggi sulle Funzioni anonime][anonymous-functions]
 * [Più dettagli nell'RFC delle chiusure][closures-rfc]

@@ -47,21 +47,22 @@ Quando incontri documentazione che dice di eseguire Composer con `php composer.p
 
     composer install
 
+This section will assume you have installed composer globally.
+
 ### Come definire e installare dipendenze
 
 Composer tiene traccia delle dipendenze del tuo progetto in un file chiamato `composer.json`. Puoi gestirlo manualmente
-se preferisci, o usare lo stesso Composer. Il comando `php composer.phar require` aggiunge una dipendenza del progetto e,
-se non hai un file `composer.json`, lo crea. Ecco un esempio che aggiunge [Twig][2] come dipendenza del tuo progetto.
-Eseguilo nella root del tuo progetto, dove avrai scaricato `composer.phar`:
+se preferisci, o usare lo stesso Composer. Il comando `composer require` aggiunge una dipendenza del progetto e,
+se non hai un file `composer.json`, lo crea. Ecco un esempio che aggiunge [Twig][2] come dipendenza del tuo progetto:
 
-	php composer.phar require twig/twig:~1.8
+	composer require twig/twig:~1.8
 
-In alternativa puoi usare il comando `php composer.phar init`, che ti guiderà nella creazione di un file `composer.json`
+In alternativa puoi usare il comando `composer init`, che ti guiderà nella creazione di un file `composer.json`
 per il tuo progetto. In ogni caso, una volta che hai creato il file `composer.json`, puoi dire a Composer di scaricare e
 installare le dipendenze nella cartella `vendors/`. Questo vale anche per i progetti che hai scaricato e che forniscono
 un file `composer.json`:
 
-    php composer.phar install
+    composer install
 
 Adesso, aggiungi questa linea al file principale della tua applicazione PHP; questo dirà a PHP di usare l'autoloader di
 Composer per le dipendenze del tuo progetto.
@@ -85,7 +86,13 @@ di ~1.8 significa "qualunque versione dopo la 1.8.0, ma minore di 2.0.x-dev". Pu
 `1.8.*`). Ora il comando `php composer.phar update` aggiornerà le dipendenze alla versione più recente che soddisfa i requisiti
 definiti.
 
-### Controllare la presenza di vulnerabilità
+### Notifiche di aggiornamento
+
+Per ricevere notifiche riguardo release di nuove versioni puoi registrati a [VersionEye][3], un servizio web che può
+monitorare i tuoi account GitHub e BitBucket alla ricerca di file `composer.json` e mandare email con le nuove release
+dei pacchetti.
+
+### Controllare la presenza di vulnerabilità nelle tue dipendenze
 
 Il [Security Advisories Checker][3] è un web service e uno strumento da linea di comando. Entrambi esamineranno il file
 `composer.lock` e ti diranno se devi aggiornare le tue dipendenze.
@@ -94,5 +101,6 @@ Il [Security Advisories Checker][3] è un web service e uno strumento da linea d
 
 [1]: http://packagist.org/
 [2]: http://twig.sensiolabs.org
-[3]: https://security.sensiolabs.org/
-[4]: http://getcomposer.org/doc/00-intro.md
+[3]: https://www.versioneye.com/
+[4]: https://security.sensiolabs.org/
+[5]: http://getcomposer.org/doc/00-intro.md

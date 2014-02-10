@@ -9,9 +9,9 @@ sviluppatori PHP scegliere diversi di questi e combinarli in un singolo progetto
 (il più fedelmente possibile) a uno stile di codifica comune per rendere facile agli sviluppatori mischiare e usare diverse
 librerie nei loro progetti.
 
-Il [Framework Interop Group][fig] (precedentemente noto come 'PHP Standards Group') ha proposto e approvato una serie di
-raccomandazioni di stile, note come [PSR-0][psr0], [PSR-1][psr1], [PSR-2][psr2] e [PSR-3][psr3]. Non lasciarti confondere
-dai nomi curiosi: queste raccomandazioni non sono che una lista di regole che alcuni progetti come Drupal, Zend, Symfony,
+Il [Framework Interop Group][fig] ha proposto e approvato una serie di raccomandazioni di stile. Non tutte riguardano lo
+stile del codice, ma quelle che lo riguardano sono note come [PSR-0][psr0], [PSR-1][psr1], [PSR-2][psr2] e [PSR-4][psr4].
+Queste raccomandazioni non sono che una lista di regole che alcuni progetti come Drupal, Zend, Symfony,
 CakePHP, phpBB, AWS SDK, FuelPHP, Lithium etc. stanno iniziando ad adottare. Puoi usarle in uno dei tuoi progetti, o
 continuare a usare il tuo stile personale.
 
@@ -23,6 +23,7 @@ essere una più estesa di quella precedente:
 * [Leggi il PSR-0][psr0]
 * [Leggi il PSR-1][psr1]
 * [Leggi il PSR-2][psr2]
+* [Leggi il PSR-4][psr4]
 * [Leggi i PEAR Coding Standards][pear-cs]
 * [Leggi i Zend Coding Standards][zend-cs]
 * [Leggi i Symfony Coding Standards][symfony-cs]
@@ -40,7 +41,7 @@ qualunque lingua purché facilmente comprensibili da tutte le parti presenti e f
 [psr0]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
 [psr1]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md
 [psr2]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md
-[psr3]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-3-logger-interface.md
+[psr4]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md
 [pear-cs]: http://pear.php.net/manual/en/standards.php
 [zend-cs]: http://framework.zend.com/wiki/display/ZFDEV2/Coding+Standards
 [symfony-cs]: http://symfony.com/doc/current/contributing/code/standards.html
