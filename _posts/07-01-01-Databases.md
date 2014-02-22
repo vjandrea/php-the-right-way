@@ -12,11 +12,11 @@ I driver nativi vanno bene se usi UN SOLO database nella tua applicazione ma se,
 di MSSQL, o devi connetterti a un database Oracle, allora non potrai usare gli stessi driver. Dovrai imparare una nuova
 API per ogni database e può diventare faticoso.
 
-Inoltre, l'estensione mysql per PHP non è più in sviluppo attivo, e lo stato ufficiale a partire da PHP 5.4.0 è
-"Deprecazione a lungo termine". Se stai usando `mysql_connect()` e `mysql_query()` nella tua applicazione, dovrai
-riscriverla a un certo punto, quindi l'opzione migliore è sostituire mysql con mysqli o PDO nelle tue applicazioni
-secondo la tua tabella di marcia, in modo da non avere fretta in futuro. _Se stai iniziando ora non usare assolutamente
-l'estensione mysql: usa l'[estensione MySQLi][mysqli] o PDO._
+Inoltre, l'estensione mysql per PHP non è più in sviluppo attivo, ed è ufficialmente deprecata a partire da PHP 5.5, il
+che significa che sarà rimossa nelle prossime release. Se stai usando `mysql_connect()` e `mysql_query()` nella tua
+applicazione, dovrai riscriverla a un certo punto, quindi l'opzione migliore è sostituire mysql con mysqli o PDO nelle
+tue applicazioni secondo la tua tabella di marcia, in modo da non avere fretta in futuro. _Se stai iniziando ora non
+usare assolutamente l'estensione mysql: usa l'[estensione MySQLi][mysqli] o PDO._
 
 * [PHP: Scegliere un'API per MySQL](http://php.net/manual/it/mysqlinfo.api.choosing.php)
 

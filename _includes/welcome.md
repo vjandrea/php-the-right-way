@@ -14,7 +14,6 @@ di approccio nei diversi casi.
 Questo è un documento in sviluppo e continuerà a essere aggiornato con nuove informazioni utili ed esempi non appena
 saranno disponibili.
 
-
 ## Traduzione
 
 _PHP: La Retta Via_ è (o sarà presto) tradotto in diverse lingue:
@@ -27,7 +26,7 @@ _PHP: La Retta Via_ è (o sarà presto) tradotto in diverse lingue:
 * [Polacco](http://pl.phptherightway.com/)
 * [Portoghese](http://br.phptherightway.com/)
 * [Russo](http://getjump.github.io/ru-php-the-right-way)
-* [Spagnolo](http://lamaneracorrecta.php.org.ve)
+* [Spagnolo](http://phpdevenezuela.github.io/php-the-right-way/)
 * [Ucraino](http://iflista.github.com/php-the-right-way/)
 * [Bulgaro](http://bg.phptherightway.com/)
 * [Tedesco](http://rwetzlmayr.github.io/php-the-right-way/)
