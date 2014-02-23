@@ -6,7 +6,7 @@ title: Problema complesso
 ## Problema complesso {#problema_complesso_title}
 
 Se hai mai letto qualcosa sull'iniezione delle dipendenze allora hai probabilmente visto i termini
-*"Inversione del controllo"* o *"Principio di inversione della dipendenza". Questi sono problemi complessi risolti
+*"Inversione del controllo"* o *"Principio di inversione della dipendenza"*. Questi sono problemi complessi risolti
 dall'iniezione delle dipendenze.
 
 ### Inversione del controllo
