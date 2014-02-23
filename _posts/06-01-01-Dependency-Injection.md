@@ -1,13 +1,17 @@
 ---
-title: Dependency Injection
+title: Iniezione delle dipendenze
 ---
 
-# Dependency Injection {#dependency_injection_title}
+# Iniezione delle dipendenze {#iniezione_delle_dipendenze_title}
 
-From [Wikipedia](http://en.wikipedia.org/wiki/Dependency_injection):
+Da [Wikipedia](http://en.wikipedia.org/wiki/Dependency_injection):
 
-> Dependency injection is a software design pattern that allows the removal of hard-coded dependencies and makes it 
+> Dependency injection is a software design pattern that allows the removal of hard-coded dependencies and makes it
 > possible to change them, whether at run-time or compile-time.
 
-This quote makes the concept sound much more complicated than it actually is. Dependency Injection is providing a component 
-with it's dependencies either through constructor injection, method calls or the setting of properties. It is that simple.
+> L'iniezione delle dipendenze è un design pattern della programmazione software che permette la rimozione di dipendenze
+> cablate a codice e rende possibile cambiarle, durante l'esecuzione o la compilazione.
+
+Questa citazione fa sembrare il concetto molto più complicato di quanto sia in realtà. L'iniezione delle dipendenze
+consiste nel fornire a un componente le sue dipendenze tramite l'iniezione nel costruttore, chiamate a metodi, o
+l'impostazione di proprietà. Tutto qui.
