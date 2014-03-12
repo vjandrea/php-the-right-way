@@ -11,18 +11,22 @@ codice condiviso. Ci sono diversi repository di componenti. I due principali son
 * [Packagist](/#composer_e_packagist)
 * [PEAR](/#pear)
 
+<<<<<<< HEAD
 Entrambi hanno degli strumenti da linea di comando associati per aiutare nei processi di installazione e aggiornamento,
-e vengono spiegati più in dettaglio nella sezione riguardante la [gestione delle dipendenze][dm].
+e vengono spiegati più in dettaglio nella sezione riguardante la [Gestione delle dipendenze].
 
-Ci sono anche framework basati sui componenti che permettono di usare i loro componenti con pochi o nessun requisito.
-Per esempio, puoi usare il [pacchetto Validation di FuelPHP][fuelval] senza dover usare il framework FuelPHP. Questi
-progetti sono essenzialmente solo altri repository per componenti riutilizzabili.
+Ci sono anche framework basati sui componenti e collezioni di componenti che non offrono alcun framework. Questi
+progetti forniscono un'altra fonte di pacchetti cheidealmente hanno poche o nessuna dipendenza da altri pacchetti o
+framework specifici.
 
-[dm]: /#dependency_management
-[fuelval]: https://github.com/fuelphp/validation
+Per esempio, puoi usare il [Pacchetto Validation di FuelPHP] senza dover usare il framework FuelPHP.
+
+[Gestione delle dipendenze]: /#dependency_management
+[Pacchetto Validation di FuelPHP]: https://github.com/fuelphp/validation
 
 * [Aura](http://auraphp.github.com/)
 * [FuelPHP](https://github.com/fuelphp)
+* [Hoa Project](https://github.com/hoaproject)
 * [Symfony Components](http://symfony.com/doc/current/components/index.html)
 * [The League of Extraordinary Packages](http://thephpleague.com/)
 * Gli Illuminate Components di Laravel
