@@ -1,6 +1,7 @@
 ---
 isChild: true
 title:   Framework
+anchor:  frameworks
 ---
 
 ## Framework {#framework_title}

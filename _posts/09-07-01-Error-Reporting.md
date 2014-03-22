@@ -1,6 +1,7 @@
 ---
 isChild: true
 title:   Segnalazione degli errori
+anchor:  error_reporting
 ---
 
 ## Segnalazione degli errori {#segnalazione_degli_errori_title}

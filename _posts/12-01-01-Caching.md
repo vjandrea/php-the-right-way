@@ -1,3 +1,7 @@
+---
+anchor: caching
+---
+
 # Caching {#caching_title}
 
 PHP è piuttosto veloce già di suo, ma possono sorgere dei problemi quando esegui connessioni remote, carichi file etc.

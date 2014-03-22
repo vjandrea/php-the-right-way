@@ -1,5 +1,6 @@
 ---
 title: Gestione delle dipendenze
+anchor: dependency_management
 ---
 
 # Gestione delle dipendenze {#gestione_delle_dipendenze_title}

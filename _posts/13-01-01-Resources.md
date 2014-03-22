@@ -1,6 +1,10 @@
 ---
-title: Risorse
+title:  Risorse
+anchor: resources
 ---
+
+# Resources {#resources_title}
+>>>>>>> upstream/gh-pages
 
 # Risorse {#risorse-title}
 

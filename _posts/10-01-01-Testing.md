@@ -1,3 +1,7 @@
+---
+anchor: testing
+---
+
 # Testing {#testing_title}
 
 Scrivere test automatizzati per il tuo codice PHP è considerata una buona

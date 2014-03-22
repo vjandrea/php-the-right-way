@@ -1,6 +1,7 @@
 ---
 isChild: true
 title:   Le basi
+anchor:  the_basics
 ---
 
 ## Le basi {#le_basi_title}

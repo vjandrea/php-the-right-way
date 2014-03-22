@@ -1,6 +1,7 @@
 ---
 isChild: true
 title:   Filtraggio dei dati
+anchor:  data_filtering
 ---
 
 ## Filtraggio dei dati {#filtraggio_dei_dati_title}

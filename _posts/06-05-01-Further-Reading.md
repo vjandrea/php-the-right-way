@@ -1,6 +1,7 @@
 ---
 isChild: true
-title: Altre letture
+title:   Altre letture
+anchor:  further_reading
 ---
 
 ## Altre letture {#altre_letture_title}

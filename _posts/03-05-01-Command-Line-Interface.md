@@ -1,6 +1,7 @@
 ---
 isChild: true
 title:   Interfaccia da linea di comando
+anchor:  command_line_interface
 ---
 
 ## Interfaccia da linea di comando {#interfaccia_da_linea_di_comando_title}

@@ -1,6 +1,7 @@
 ---
 isChild: true
 title:   Hashing delle password
+anchor:  password_hashing
 ---
 
 ## Hashing delle password {#hashing_delle_password_title}

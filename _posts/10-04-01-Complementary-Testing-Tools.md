@@ -1,6 +1,7 @@
 ---
 isChild: true
 title:   Strumenti complementari
+anchor:  complementary_testing_tools
 ---
 
 ## Strumenti complementari {#strumenti_complementari_title}

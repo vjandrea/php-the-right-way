@@ -1,6 +1,7 @@
 ---
 isChild: true
 title:   Server condivisi
+anchor:  shared_servers
 ---
 
 ## Server condivisi {#server_condivisi_title}

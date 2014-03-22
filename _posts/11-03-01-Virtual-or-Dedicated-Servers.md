@@ -1,6 +1,7 @@
 ---
 isChild: true
 title:   Server virtuali o dedicati
+anchor:  virtual_or_dedicated_servers
 ---
 
 ## Server virtuali o dedicati {#server_virtuali_o_dedicati_title}

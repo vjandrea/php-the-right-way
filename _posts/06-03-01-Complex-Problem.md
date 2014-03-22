@@ -1,6 +1,7 @@
 ---
 isChild: true
-title: Problema complesso
+title:   Problema complesso
+anchor:  complex_problem
 ---
 
 ## Problema complesso {#problema_complesso_title}

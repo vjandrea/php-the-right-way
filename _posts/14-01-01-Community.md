@@ -1,3 +1,7 @@
+---
+anchor: community
+---
+
 # Community {#community_title}
 
 La community di PHP è tanto grande quanto diversificata, e i suoi membri sono pronti e volenterosi di supportare i nuovi

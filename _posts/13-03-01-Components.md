@@ -1,6 +1,7 @@
 ---
 isChild: true
 title:   Componenti
+anchor:  components
 ---
 
 ## Componenti {#componenti_title}
@@ -27,6 +28,7 @@ Per esempio, puoi usare il [Pacchetto Validation di FuelPHP] senza dover usare i
 * [Aura](http://auraphp.github.com/)
 * [FuelPHP](https://github.com/fuelphp)
 * [Hoa Project](https://github.com/hoaproject)
+* [Orno](https://github.com/orno)
 * [Symfony Components](http://symfony.com/doc/current/components/index.html)
 * [The League of Extraordinary Packages](http://thephpleague.com/)
 * Gli Illuminate Components di Laravel

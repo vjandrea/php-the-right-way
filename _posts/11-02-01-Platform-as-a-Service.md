@@ -1,9 +1,10 @@
 ---
 title:   Platform as a Service (PaaS)
 isChild: true
+anchor:  platform_as_a_service
 ---
 
-## Platform as a Service (PaaS)  {#platform_as_a_service_paas_title}
+## Platform as a Service (PaaS)  {#platform_as_a_service_title}
 
 PaaS fornisce il sistema e l'architettura di rete necessari per eseguire
 applicazioni PHP in Rete. Questo significa che c'è bisogno di poca o,

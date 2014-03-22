@@ -1,6 +1,7 @@
 ---
 isChild: true
 title:   Caching degli oggetti
+anchor:  object_caching
 ---
 
 ## Caching degli oggetti {#caching_degli_oggetti_title}

@@ -1,5 +1,6 @@
 ---
-title: Stile di codifica
+title:  Stile di codifica
+anchor: code_style_guide
 ---
 
 # Stile di codifica  {#guida_allo_stile_di_codifica_title}

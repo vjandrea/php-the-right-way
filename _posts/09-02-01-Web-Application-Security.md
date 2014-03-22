@@ -1,6 +1,7 @@
 ---
 isChild: true
 title:   Sicurezza nelle applicazioni Web
+anchor:  web_application_security
 ---
 
 ## Sicurezza nelle applicazioni Web {#sicurezza_nelle_applicazioni_web_title}

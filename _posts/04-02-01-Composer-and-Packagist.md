@@ -1,6 +1,7 @@
 ---
 isChild: true
 title:   Composer e Packagist
+anchor:  composer_and_packagist
 ---
 
 ## Composer e Packagist {#composer_e_packagist_title}

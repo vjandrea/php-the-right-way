@@ -1,6 +1,7 @@
 ---
 isChild: true
-title: Configurazione Windows
+title:   Configurazione Windows
+anchor:  windows_setup
 ---
 
 ## Configurazione Windows {#configurazione_windows_title}

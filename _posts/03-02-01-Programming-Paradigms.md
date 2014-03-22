@@ -1,6 +1,7 @@
 ---
 isChild: true
-title: Paradigmi di programmazione
+title:   Paradigmi di programmazione
+anchor:  programming_paradigms
 ---
 
 ## Paradigmi di programmazione {#paradigmi_di_programmazione_title}
@@ -19,7 +20,7 @@ le classi, le classi astratte, le interfacce, l'ereditarietà, i costruttori, la
 
 ### Programmazione funzionale
 
-PHP supporta le funzioni di prima classe, il che significa che una funzione può essere assegnata a una variabile. Ci si 
+PHP supporta le funzioni di prima classe, il che significa che una funzione può essere assegnata a una variabile. Ci si
 può riferire tramite variabili sia alle funzioni definite dall'utente che a quelle native, ed entrambe possono essere
 chiamate dinamicamente. Le funzioni possono essere passate ad altre funzioni come argomenti (caratteristica chiamata
 funzioni di ordine superiore) e le funzioni possono restituire altre funzioni.

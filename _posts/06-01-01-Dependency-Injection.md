@@ -1,5 +1,8 @@
 ---
-title: Iniezione delle dipendenze
+<<<<<<< HEAD
+title:  Iniezione delle dipendenze
+title:  Dependency Injection
+anchor: dependency_injection
 ---
 
 # Iniezione delle dipendenze {#iniezione_delle_dipendenze_title}

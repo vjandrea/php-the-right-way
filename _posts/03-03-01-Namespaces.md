@@ -1,6 +1,7 @@
 ---
 isChild: true
-title: Namespace
+title:   Namespace
+anchor:  namespaces
 ---
 
 ## Namespace {#namespace_title}

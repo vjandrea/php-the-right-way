@@ -1,6 +1,7 @@
 ---
 isChild: true
-title: Configurazione Mac
+title:   Configurazione Mac
+anchor:  mac_setup
 ---
 
 ## Configurazione Mac  {#configurazione_mac_title}
