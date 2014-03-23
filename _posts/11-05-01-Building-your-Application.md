@@ -2,6 +2,7 @@
 isChild: true
 title:   Costruire e pubblicare la tua applicazione
 anchor:  building_and_deploying_your_application
+---
 
 ## Costruire e pubblicare la tua applicazione {#building_and_deploying_your_application_title}
 
