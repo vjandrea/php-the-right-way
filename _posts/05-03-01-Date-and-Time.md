@@ -1,17 +1,17 @@
 ---
 isChild: true
-title:   Data e tempo
+title:   Data e ora
 anchor:  date_and_time
 ---
 
-## Data e tempo {#date_and_time_title}
+## Data e ora {#date_and_time_title}
 
-PHP ha una classe chiamata DateTime che aiuta nella lettura, scrittura, confronto e calcolo di date e tempo. Non ci sono
-molte funzioni relative alle date e al tempo in PHP a parte DateTime, ma essa fornisce una interfaccia orientata agli
+PHP ha una classe chiamata DateTime che aiuta nella lettura, scrittura, confronto e calcolo di date e ore. Non ci sono
+molte funzioni relative alle date e all'ora in PHP a parte DateTime, ma essa fornisce una interfaccia orientata agli
 oggetti ai casi di uso più comuni. Può gestire i fusi orari, ma ciò esula da questa breve introduzione.
 
-Per iniziare a lavorare con DateTime, converti le rappresentazioni grezze di date e tempo in un oggetto con il metodo
-`createFromFormat()` o esegui `new \DateTime` per ottenere la data e il tempo attuali. Usa il metodo `format()` per
+Per iniziare a lavorare con DateTime, converti le rappresentazioni grezze di date e ora in un oggetto con il metodo
+`createFromFormat()` o esegui `new \DateTime` per ottenere la data e l'ora attuali. Usa il metodo `format()` per
 convertire DateTime in una stringa da visualizzare.
 
 {% highlight php %}
