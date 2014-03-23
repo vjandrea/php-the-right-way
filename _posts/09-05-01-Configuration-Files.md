@@ -4,7 +4,7 @@ title:   File di configurazione
 anchor:  configuration_files
 ---
 
-## File di configurazione {#file_di_configurazione_title}
+## File di configurazione {#configuration_files_title}
 
 Nella creazione di file di configurazione per la tua applicazione, le migliori pratiche raccomandano l'utilizzo di uno
 dei seguenti metodi:

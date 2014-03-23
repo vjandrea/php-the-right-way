@@ -4,7 +4,7 @@ title:   Interfaccia da linea di comando
 anchor:  command_line_interface
 ---
 
-## Interfaccia da linea di comando {#interfaccia_da_linea_di_comando_title}
+## Interfaccia da linea di comando {#command_line_interface_title}
 
 PHP è stato creato principalmente per scrivere applicazioni Web, ma è anche utile nella creazione di programmi da linea
 di comando (CLI - Command Line Interface). I programmi da linea di comando aiutano ad automatizzare compiti come il testing, la pubblicazione e

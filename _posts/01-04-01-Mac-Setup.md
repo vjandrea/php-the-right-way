@@ -4,7 +4,7 @@ title:   Configurazione Mac
 anchor:  mac_setup
 ---
 
-## Configurazione Mac  {#configurazione_mac_title}
+## Configurazione Mac  {#mac_setup_title}
 
 OSX contiene una versione prepacchettizata di PHP ma è generalmente più vecchia dell'ultima versione stabile. Lion
 contiene PHP 5.3.6 e Mountain Lion ha PHP 5.4.17.

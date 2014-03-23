@@ -4,7 +4,7 @@ title:   Framework
 anchor:  frameworks
 ---
 
-## Framework {#framework_title}
+## Framework {#frameworks_title}
 
 Piuttosto che reinventare la ruota, molti sviluppatori PHP usano i framework per
 sviluppare le loro applicazioni Web. I framework astraggono molti dei problemi

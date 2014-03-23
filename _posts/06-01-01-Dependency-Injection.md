@@ -1,11 +1,9 @@
 ---
-<<<<<<< HEAD
 title:  Iniezione delle dipendenze
-title:  Dependency Injection
 anchor: dependency_injection
 ---
 
-# Iniezione delle dipendenze {#iniezione_delle_dipendenze_title}
+# Iniezione delle dipendenze {#dependency_injection_title}
 
 Da [Wikipedia](http://en.wikipedia.org/wiki/Dependency_injection):
 

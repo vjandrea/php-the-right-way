@@ -4,7 +4,7 @@ title:   Filtraggio dei dati
 anchor:  data_filtering
 ---
 
-## Filtraggio dei dati {#filtraggio_dei_dati_title}
+## Filtraggio dei dati {#data_filtering_title}
 
 Non fidarti mai (mai!) dell'input esterno introdotto nel tuo codice PHP.
 Sanitizza e valida sempre l'input prima di usarlo nel tuo codice. Le funzioni

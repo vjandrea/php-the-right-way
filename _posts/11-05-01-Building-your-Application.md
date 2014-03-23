@@ -3,7 +3,7 @@ isChild: true
 title:   Costruire e pubblicare la tua applicazione
 anchor:  building_and_deploying_your_application
 
-## Costruire e pubblicare la tua applicazione {#costruire_e_pubblicare_la_tua_applicazione_title}
+## Costruire e pubblicare la tua applicazione {#building_and_deploying_your_application_title}
 
 Se ti trovi a dover modificare lo schema del database o eseguire i test prima dell'aggiornamento dei file manualmente,
 ripensaci! Con ogni compito manuale in più che devi eseguire per pubblicare una nuova versione della tua applicazione

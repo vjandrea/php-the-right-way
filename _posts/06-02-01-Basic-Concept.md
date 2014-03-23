@@ -4,7 +4,7 @@ title:   Concetto di base
 anchor:  basic_concept
 ---
 
-## Concetto di base {#concetto_di_base_title}
+## Concetto di base {#basic_concept_title}
 
 Possiamo dimostrare il concetto con un esempio semplice ma primitivo.
 

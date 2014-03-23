@@ -4,7 +4,7 @@ title:   Eccezioni
 anchor:  exceptions
 ---
 
-## Eccezioni {#eccezioni_title}
+## Eccezioni {#exceptions_title}
 
 Le eccezioni sono una parte standard della maggior parti dei linguaggi di programmazione famosi, ma sono spesso ignorate
 dai programmatori PHP. Linguaggi come Ruby fanno un uso massiccio delle eccezioni, quindi ogni volta che qualcosa va

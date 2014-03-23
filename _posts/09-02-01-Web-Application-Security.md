@@ -4,7 +4,7 @@ title:   Sicurezza nelle applicazioni Web
 anchor:  web_application_security
 ---
 
-## Sicurezza nelle applicazioni Web {#sicurezza_nelle_applicazioni_web_title}
+## Sicurezza nelle applicazioni Web {#web_application_security_title}
 
 Ci sono cattive persone pronte e desiderose di manipolare la tua applicazione
 Web. È importante che prendi le precauzioni necessarie per irrigidire la

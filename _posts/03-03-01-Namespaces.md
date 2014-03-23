@@ -4,7 +4,7 @@ title:   Namespace
 anchor:  namespaces
 ---
 
-## Namespace {#namespace_title}
+## Namespace {#namespaces_title}
 
 Come menzionato sopra, la comunità PHP ha molti sviluppatori che creano molto codice. Questo significa che il codice PHP
 di una libreria potrebbe usare lo stesso nome di un'altra per una classe. Quando entrambe le librerie vengono usate

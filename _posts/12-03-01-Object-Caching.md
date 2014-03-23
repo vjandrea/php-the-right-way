@@ -4,7 +4,7 @@ title:   Caching degli oggetti
 anchor:  object_caching
 ---
 
-## Caching degli oggetti {#caching_degli_oggetti_title}
+## Caching degli oggetti {#object_caching_title}
 
 Alcune volte può essere utile mettere in cache oggetti singoli nel tuo codice, come, per esempio, dati che sono lenti da
 ottenere o chiamate al database il cui risultato cambia difficilmente. Puoi usare software di caching degli oggetti per

@@ -1,9 +1,9 @@
 ---
-title: Gestione delle dipendenze
+title:  Gestione delle dipendenze
 anchor: dependency_management
 ---
 
-# Gestione delle dipendenze {#gestione_delle_dipendenze_title}
+# Gestione delle dipendenze {#dependency_management_title}
 
 Ci sono moltissime librerie PHP, framework e componenti tra cui scegliere. Il
 tuo progetto, probabilmente, ne userà diversi. Queste sono dipendenze del

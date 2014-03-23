@@ -4,7 +4,7 @@ title:   Design pattern
 anchor:  design_patterns
 ---
 
-## Design pattern {#design_pattern_title}
+## Design pattern {#design_patterns_title}
 
 Quando stai costruendo la tua applicazione è d'aiuto usare dei pattern di
 progettazione del tuo codice e pattern comuni per la struttura

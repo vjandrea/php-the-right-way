@@ -4,7 +4,7 @@ title:   Le basi
 anchor:  the_basics
 ---
 
-## Le basi {#le_basi_title}
+## Le basi {#the_basics_title}
 
 PHP è un linguaggio vasto che permette a programmatori di ogni livello di
 produrre codice non solo velocemente, ma efficientemente. Tuttavia, avanzando

@@ -4,7 +4,7 @@ title:   Configurazione Windows
 anchor:  windows_setup
 ---
 
-## Configurazione Windows {#configurazione_windows_title}
+## Configurazione Windows {#windows_setup_title}
 
 Puoi installare PHP su Windows in diversi modi. Puoi scaricare i [binari][php-downloads] e, fino a poco tempo fa, potevi
 usare un installer '.msi'. L'installer non è più disponibile e si ferma a PHP 5.3.0.

@@ -4,7 +4,7 @@ title:   Problema complesso
 anchor:  complex_problem
 ---
 
-## Problema complesso {#problema_complesso_title}
+## Problema complesso {#complex_problem_title}
 
 Se hai mai letto qualcosa sull'iniezione delle dipendenze allora hai probabilmente visto i termini
 *"Inversione del controllo"* o *"Principio di inversione della dipendenza"*. Questi sono problemi complessi risolti

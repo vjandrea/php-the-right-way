@@ -4,7 +4,7 @@ title:   Server virtuali o dedicati
 anchor:  virtual_or_dedicated_servers
 ---
 
-## Server virtuali o dedicati {#server_virtuali_o_dedicati_title}
+## Server virtuali o dedicati {#virtual_or_dedicated_servers_title}
 
 Se hai dimestichezza con l'amministrazione di un sistema o vuoi impararla, i
 server virtuali o dedicati ti danno totale controllo sull'ambiente di

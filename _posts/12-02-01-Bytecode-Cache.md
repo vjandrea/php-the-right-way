@@ -4,7 +4,7 @@ title:   Cache del bytecode
 anchor:  bytecode_cache
 ---
 
-## Cache del bytecode {#cache_del_bytecode_title}
+## Cache del bytecode {#bytecode_cache_title}
 
 Quando un file PHP viene eseguito, esso viene prima compilato in bytecode (anche conosciuto come opcode) e, solo allora,
 il bytecode viene eseguito. Se un file PHP non viene modificato, il bytecode rimarrà sempre lo stesso. Questo significa

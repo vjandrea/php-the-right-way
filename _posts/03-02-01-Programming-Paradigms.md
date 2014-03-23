@@ -4,7 +4,7 @@ title:   Paradigmi di programmazione
 anchor:  programming_paradigms
 ---
 
-## Paradigmi di programmazione {#paradigmi_di_programmazione_title}
+## Paradigmi di programmazione {#programming_paradigms_title}
 
 PHP è un linguaggio flessibile e dinamico che supporta diverse tecniche di programmazione. Si è evoluto moltissimo negli
 ultimi anni, in particolare aggiungendo un solido modello a oggetti in PHP 5.0 (2004), le funzioni anonime e i namespace

@@ -3,7 +3,7 @@ title:  Database
 anchor: databases
 ---
 
-# Database {#database_title}
+# Database {#databases_title}
 
 Molte volte il tuo codice PHP utilizzerà un database per memorizzare informazioni. Hai diverse opzioni per connetterti e
 interagire con il tuo database. L'opzione consigliata _fino a PHP 5.1.0_ era di usare i driver nativi come [mysql][mysql],

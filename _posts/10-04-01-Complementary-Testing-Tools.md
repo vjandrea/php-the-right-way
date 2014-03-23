@@ -4,7 +4,7 @@ title:   Strumenti complementari
 anchor:  complementary_testing_tools
 ---
 
-## Strumenti complementari {#strumenti_complementari_title}
+## Strumenti complementari {#complementary_testing_tools_title}
 
 Oltre ai framework di testing individuali, ci sono anche altri framework generici e librerie di aiuto utili per ogni
 approccio.

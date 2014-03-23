@@ -4,7 +4,7 @@ title:   Server condivisi
 anchor:  shared_servers
 ---
 
-## Server condivisi {#server_condivisi_title}
+## Server condivisi {#shared_servers_title}
 
 PHP deve ringraziare i server condivisi della sua popolarità. È difficile
 trovare un host senza PHP installato, ma assicurati che sia l'ultima versione.

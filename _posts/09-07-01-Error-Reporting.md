@@ -4,7 +4,7 @@ title:   Segnalazione degli errori
 anchor:  error_reporting
 ---
 
-## Segnalazione degli errori {#segnalazione_degli_errori_title}
+## Segnalazione degli errori {#error_reporting_title}
 
 Il logging degli errori può essere utile per trovare i punti problematici della
 tua applicazione, ma può anche esporre informazioni riguardo la sua struttura al

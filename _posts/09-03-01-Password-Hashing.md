@@ -4,7 +4,7 @@ title:   Hashing delle password
 anchor:  password_hashing
 ---
 
-## Hashing delle password {#hashing_delle_password_title}
+## Hashing delle password {#password_hashing_title}
 
 Prima o poi chiunque crea un'applicazione PHP che richiede il login degli
 utenti. Username e password vengono salvati nel database e usati successivamente

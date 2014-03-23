@@ -4,7 +4,7 @@ title:   Composer e Packagist
 anchor:  composer_and_packagist
 ---
 
-## Composer e Packagist {#composer_e_packagist_title}
+## Composer e Packagist {#composer_and_packagist_title}
 
 Composer è un **ottimo** gestore delle dipendenze per PHP. Elenca le dipendenze del tuo progetto in un file `composer.json`
 e, con pochi semplici comandi, Composer scaricherà automaticamente le dipendenze e imposterà l'autoloading al posto tuo.

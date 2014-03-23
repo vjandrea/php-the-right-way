@@ -4,7 +4,7 @@ title:   Data e tempo
 anchor:  date_and_time
 ---
 
-## Data e tempo {#data_e_tempo_title}
+## Data e tempo {#date_and_time_title}
 
 PHP ha una classe chiamata DateTime che aiuta nella lettura, scrittura, confronto e calcolo di date e tempo. Non ci sono
 molte funzioni relative alle date e al tempo in PHP a parte DateTime, ma essa fornisce una interfaccia orientata agli

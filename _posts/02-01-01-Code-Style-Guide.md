@@ -3,7 +3,7 @@ title:  Stile di codifica
 anchor: code_style_guide
 ---
 
-# Stile di codifica  {#guida_allo_stile_di_codifica_title}
+# Stile di codifica  {#code_style_guide_title}
 
 La comunità PHP è grande e diversificata, fatta di innumerevoli librerie, framework e componenti. È comune per gli
 sviluppatori PHP scegliere diversi di questi e combinarli in un singolo progetto. È importante che il codice PHP aderisca

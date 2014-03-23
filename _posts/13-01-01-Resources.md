@@ -3,10 +3,7 @@ title:  Risorse
 anchor: resources
 ---
 
-# Resources {#resources_title}
->>>>>>> upstream/gh-pages
-
-# Risorse {#risorse-title}
+# Risorse {#resources_title}
 
 ## Dalla fonte
 
@@ -25,7 +22,7 @@ anchor: resources
 * [Anthony Ferrara](http://twitter.com/ircmaxell)
 * [Nikita Popov](http://twitter.com/nikita_ppv)
 
-## Insegnamenti
+## Insegnamento
 
 * [phpmentoring.org](http://phpmentoring.org/) - Insegnamento formale e peer to peer nella comunità PHP.
 

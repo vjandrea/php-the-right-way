@@ -4,7 +4,7 @@ title:   Contenitore
 anchor:  containers
 ---
 
-## Contenitore {#contenitore_title}
+## Contenitore {#containers_title}
 
 La prima cosa che dovresti capire riguardo i contenitori di iniezione delle dipendenze è che non sono uguali
 all'iniezione delle dipendenze. Un contenitore è un'utilità che ti aiuta a implementare l'iniezione delle dipendenze.

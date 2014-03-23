@@ -4,7 +4,7 @@ isChild: true
 anchor:  use_the_current_stable_version
 ---
 
-# Usa l'ultima versione stabile (5.5) {#usa_lultima_versione_stabile_55_title}
+# Usa l'ultima versione stabile (5.5) {#use_the_current_stable_version_title}
 
 Se hai appena iniziato con PHP assicurati di usare l'ultima versione stabile di [PHP 5.5][php-release]. Il team di PHP ha
 fatto molti sforzi per aggiungere nuove potenti [funzionalità](#language_highlights) negli ultimi anni. Non farti ingannare

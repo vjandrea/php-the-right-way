@@ -4,7 +4,7 @@ title:   Componenti
 anchor:  components
 ---
 
-## Componenti {#componenti_title}
+## Componenti {#components_title}
 
 Come menzionato sopra i componenti sono un altro approccio all'obiettivo comune di creare, distribuire e implementare
 codice condiviso. Ci sono diversi repository di componenti. I due principali sono:
