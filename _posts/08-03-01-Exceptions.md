@@ -19,7 +19,7 @@ recuperare l'errore di quella classe, invece di averlo subito ovvio.
 
 Un altro problema è quando le classi lanciano un errore a schermo automaticamente e terminano il processo. Facendo
 questo, impedisci a un altro sviluppatore di gestire dinamicamente l'errore. Le eccezioni dovrebbero essere lanciate per
-mettere a conoscenza lo sviluppatore di un errore, in modo che possa scegliere come gestirlo. Esempio:
+mettere a conoscenza lo sviluppatore di un errore; starà a loro scegliere come gestirlo. Esempio:
 
 {% highlight php %}
 <?php
@@ -61,7 +61,7 @@ portare alla creazione di <em>molte</em> eccezioni personalizzate, alcune delle 
 usando le eccezioni SPL fornite dall'[estensione SPL][splext].
 
 Se per esempio usi il metodo magico `__call()` e un metodo non valido è richiesto, invece di lanciare un'eccezione
-standard vaga o creare un'eccezione personalizzata solo per quello, potresti solo eseguire
+standard, troppo vaga, o creare un'eccezione personalizzata solo per quello, potresti solo eseguire
 `throw new BadFunctionCallException()`.
 
 * [Leggi sulle eccezioni][exceptions]
