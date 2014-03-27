@@ -23,7 +23,12 @@ Questo scaricherà `composer.phar` (un archivio PHP binario). Puoi eseguirlo con
 progetto. <strong>Attenzione:</strong> se esegui direttamente del codice proveniente dal Web, controllalo online per
 assicurarti che sia sicuro.
 
-### Come installare Cmposer (manualmente)
+#### Installazione su Windows
+Per gli utenti Windows il modo più facile di configurare tutto è usare l'installer [ComposerSetup][6], che esegue
+un'installazione globale e imposta la variabile `$PATH` in modo che si possa chiamare `composer` nella linea di comando
+da qualunque directory.
+
+### Come installare Composer (manualmente)
 
 L'installazione manuale di Composer è una tecnica avanzata; tuttavia, ci sono diverse ragioni per cui uno sviluppatore
 potrebbe preferire questo metodo rispetto alla procedura di installazione interattiva. L'installazione interattiva controlla
@@ -105,3 +110,8 @@ Il [Security Advisories Checker][3] è un web service e uno strumento da linea d
 [3]: https://www.versioneye.com/
 [4]: https://security.sensiolabs.org/
 [5]: http://getcomposer.org/doc/00-intro.md
+<<<<<<< HEAD
+=======
+[6]: https://getcomposer.org/Composer-Setup.exe
+
+>>>>>>> upstream/gh-pages
