@@ -110,8 +110,4 @@ Il [Security Advisories Checker][3] è un web service e uno strumento da linea d
 [3]: https://www.versioneye.com/
 [4]: https://security.sensiolabs.org/
 [5]: http://getcomposer.org/doc/00-intro.md
-<<<<<<< HEAD
-=======
 [6]: https://getcomposer.org/Composer-Setup.exe
-
->>>>>>> upstream/gh-pages
