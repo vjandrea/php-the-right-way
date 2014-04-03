@@ -6,7 +6,7 @@ title:   PHP e UTF-8
 
 ## PHP e UTF-8 {#php_and_utf8_title}
 
-_ Questa sezione è stata originariamente scritta da [Alex Cabal](https://alexcabal.com) su
+_Questa sezione è stata originariamente scritta da [Alex Cabal](https://alexcabal.com) su
 [PHP Best Practices](https://phpbestpractices.org/#utf-8) ed è stata ora condivisa qui._
 
 ### Non c'è una soluzione unica. Sii attento, dettagliato e consistente.
