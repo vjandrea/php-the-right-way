@@ -23,7 +23,8 @@ un'[area dedicata a PHP su iis.net][php-iis].
 [php-downloads]: http://windows.php.net
 [phpmanager]: http://phpmanager.codeplex.com/
 [wpi]: http://www.microsoft.com/web/downloads/platform.aspx
-[zsce]: http://www.zend.com/it/products/server-ce/
-[xampp]: http://www.apachefriends.org/it/xampp.html
+[zsce]: http://www.zend.com/en/products/server-ce/
+[xampp]: http://www.apachefriends.org/en/xampp.html
+[easyphp]: http://www.easyphp.org/
 [wamp]: http://www.wampserver.com/
 [php-iis]: http://php.iis.net/
