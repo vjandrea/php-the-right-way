@@ -64,10 +64,10 @@ $pdo->query("SELECT name FROM users WHERE id = " . $_GET['id']); // <-- NO!
 {% endhighlight %}
 
 Questo è codice terribile. Stai inserendo un parametro grezzo nella tua query SQL. Il tuo script sarà manipolato in un
-attimo usando una pratica chiamata [SQL Injection]. Immagina che un hacker passi un parametro `id` inventato chiamando
-un URL come `http://dominio.com/?id=1%3BDELETE+FROM+users`. In questo modo la variabile `$_GET['id']` sarà impostata a
-`1;DELETE FROM users`, che cancellerà tutti i tuoi utenti! Invece, dovresti sanitizzare l'input usando i parametri di
-PDO:
+attimo usando una pratica chiamata [SQL Injection](http://wiki.hashphp.org/Validation). Immagina che un hacker passi un
+parametro `id` inventato chiamando un URL come `http://dominio.com/?id=1%3BDELETE+FROM+users`. In questo modo la variabile
+`$_GET['id']` sarà impostata a `1;DELETE FROM users`, che cancellerà tutti i tuoi utenti! Invece, dovresti sanitizzare
+l'input usando i parametri di PDO:
 
 {% highlight php %}
 <?php
@@ -93,7 +93,6 @@ script termina l'esecuzione, a meno che, ovviamente, non usi le connessioni pers
 [Learn about PDO]: http://www.php.net/manual/en/book.pdo.php
 [Learn about PDO connections]: http://php.net/manual/en/pdo.connections.php
 [officially deprecated as of PHP 5.5.0]: http://php.net/manual/en/migration55.deprecated.php
-[SQL Injection]: http://wiki.hashphp.org/Validation
 
 [pdo]: http://php.net/pdo
 [mysql]: http://php.net/mysql
