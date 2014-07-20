@@ -1,4 +1,5 @@
 ---
+title:   Lavorare con UTF-8
 isChild: true
 anchor:  php_and_utf8
 title:   PHP e UTF-8
@@ -6,8 +7,10 @@ title:   PHP e UTF-8
 
 ## PHP e UTF-8 {#php_and_utf8_title}
 
-_Questa sezione è stata originariamente scritta da [Alex Cabal](https://alexcabal.com) su
-[PHP Best Practices](https://phpbestpractices.org/#utf-8) ed è stata ora condivisa qui._
+_Questa sezione è stata originariamente scritta da
+[Alex Cabal](https://alexcabal.com)
+su [PHP Best Practices](https://phpbestpractices.org/#utf-8) ed è stata usata
+come base per i nostri consigli su UTF-8._
 
 ### Non c'è una soluzione unica. Sii attento, dettagliato e consistente.
 
@@ -20,8 +23,8 @@ dall'HTML all'SQL al PHP. Cercheremo di scrivere un sommario breve e pratico.
 Le operazioni di base con le stringhe, come il concatenamento di due stringhe e l'assegnamento di stringhe a variabili,
 non richiedono nulla di speciale per il supporto UTF-8. Tuttavia la maggior parte delle funzioni per le stringhe, come
 `strpos()` e `strlen()`, richiedono particolare considerazione. Queste funzioni hanno solitamente una controparte
-`mb_*`: per esempio, `mb_strpos()` e `mb_strlen()`. Insieme, queste controparti vengono chiamate le Funzioni Stringa
-Multibyte. Le funzioni stringa multibyte sono specificatamente disegnate per operare su stringhe Unicode.
+`mb_*`: per esempio, `mb_strpos()` e `mb_strlen()`. IQueste stringhe `mb_*` vengono fornite tramite
+l'[Estensione Multibyte String], e sono specificatamente disegnate per operare su stringhe Unicode.
 
 Devi usare le funzioni `mb_*` ogni qualvolta operi su una stringa Unicode. Per esempio, se usi `substr()` su una stringa
 UTF-8, c'è una buona possibilità che il risultato includa dei caratteri incomprensibili. La funzione corretta da usare
@@ -40,9 +43,15 @@ Definire esplicitamente la codifica delle tue stringhe in ogni script ti salver�
 Infine, molte funzioni PHP che operano sulle stringhe hanno un parametro opzionale che ti permette di specificare la
 codifica dei caratteri. Dovresti sempre esplicitamente indicare UTF-8 quando ne hai la possibilità. Per esempio,
 `htmlentities()` ha un'opzione per la codifica dei caratteri, e dovresti sempre specificare UTF-8 se hai a che fare con
-certe stringhe.
+certe stringhe. Tieni a mente che, a partire da PHP 5.4.0, UTF-8 è la codifica predefinita per `htmlentities()` e
+`htmlspecialchars()`.
 
-Tieni a mente che, a partire da PHP 5.4.0, UTF-8 è la codifica predefinita per `htmlentities()` e `htmlspecialchars()`.
+Infine, se stai costruendo un'applicazione distribuita e non sei certo che l'estensione `mbstring` sarà disponibile,
+considera l'idea di usare il pacchetto Composer [patchwork/utf8]. Questo userà `mbstring` se è disponibile, e le
+funzioni non UTF-8 se non lo è.
+
+[Estensione Multibyte String]: http://php.net/manual/en/book.mbstring.php
+[patchwork/utf8]: https://packagist.org/packages/patchwork/utf8
 
 ### UTF-8 al livello database
 
@@ -58,9 +67,12 @@ Tieni a mente che devi usare il set di caratteri `utf8mb4` per il supporto compl
 
 ### UTF-8 al livello browser
 
-Usa la funzione `mb_http_output()` per assicurarti che il tuo script PHP invii stringhe UTF-8 al tuo browser. Nel tuo
-HTML, includi il [`<meta>` tag charset](http://htmlpurifier.org/docs/enduser-utf8.html) nel tag `<head>` della tua
-pagina.
+Usa la funzione `mb_http_output()` per assicurarti che il tuo script PHP invii stringhe UTF-8 al tuo browser.
+
+Il browser avrà poi bisogno di sapere dalla risposta HTTP che questa pagina dev'essere considerata come UTF-8.
+L'approccio storico è usare il [`<meta>` tag charset](http://htmlpurifier.org/docs/enduser-utf8.html) nel tag `<head>`
+della tua pagina. Questo approccio è perfettamente valido, ma impostare il charset nell'header `Content-Type` è in
+realtà [molto più veloce](https://developers.google.com/speed/docs/best-practices/rendering#SpecifyCharsetEarly).
 
 {% highlight php %}
 <?php
@@ -104,11 +116,12 @@ $handle->execute();
 
 // Salva il risultato in un oggetto che dopo invieremo nel nostro HTML
 $result = $handle->fetchAll(\PDO::FETCH_OBJ);
+
+header('Content-Type: text/html; charset=utf-8');
 ?><!doctype html>
 <html>
     <head>
-        <meta charset="UTF-8" />
-        <title>UTF-8 test page</title>
+      <title>Pagina di test UTF-8</title>
     </head>
     <body>
         <?php

@@ -1,6 +1,6 @@
 ---
 isChild: true
-title: Interagire coi database
+title:  Interagire coi database
 anchor: databases_interacting
 ---
 
@@ -21,15 +21,15 @@ foreach ($db->query('SELECT * FROM table') as $row) {
 Questo è una pessima pratica per diverse ragioni: principalmente è difficile da debuggare, difficile da testare,
 difficile da leggere e stamperà molti campi se non imposti un limite.
 
-Ci sono molte soluzioni per farlo - a seconda che si preferisca l'[OOP](/#object-oriented-programming) o la
+Nonostante ci siano molte soluzioni per farlo - a seconda che si preferisca l'[OOP](/#object-oriented-programming) o la
 [programmazione funzionale](/#functional-programming) - ci dev'essere un elemento di separazione.
 
 Considera il passo più semplice:
 
 {% highlight php %}
 <?php
-functon getAllSomethings($db) {
-	return $db->query('SELECT * FROM table');
+function getAllSomethings($db) {
+    return $db->query('SELECT * FROM table');
 }
 
 foreach (getAllFoos() as $row) {
@@ -37,7 +37,7 @@ foreach (getAllFoos() as $row) {
 }
 {% endhighlight %}
 
-Questo è un buon inizio. Metti quei due pezzi in due file diversi e hai una buona separazione.
+Questo è un buon inizio. Metti quei due pezzi in due file diversi e hai una separazione pulita.
 
 Crea una classe per metterci quel metodo e hai un "modello". Crea un semplice file `.php` per metterci la logica di
 presentazione e hai una "vista", che è molto simile all'[MVC] - un'architettura OOP comune a molti
@@ -67,16 +67,16 @@ include 'views/foo-list.php';
 <?php
 class Foo()
 {
-	protected $db;
+    protected $db;
 
-	public function __construct(PDO $db)
-	{
-		$this->db = $db;
-	}
+    public function __construct(PDO $db)
+    {
+        $this->db = $db;
+    }
 
-	public functon getAllFoos() {
-		return $this->db->query('SELECT * FROM table');
-	}
+    public function getAllFoos() {
+        return $this->db->query('SELECT * FROM table');
+    }
 }
 {% endhighlight %}
 
