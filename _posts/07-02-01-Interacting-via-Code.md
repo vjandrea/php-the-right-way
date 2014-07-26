@@ -4,7 +4,7 @@ title:  Interagire coi database
 anchor: databases_interacting
 ---
 
-## Interagire coi database {#databases_interacting}
+## Interagire coi database {#databases_interacting_title}
 
 Quando gli sviluppatori iniziano a imparare PHP, spesso finiscono per mescolare l'interazion col database con la logica
 di presentazione, usando codice come questo:
