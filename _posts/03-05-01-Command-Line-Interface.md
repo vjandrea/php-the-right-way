@@ -6,9 +6,9 @@ anchor:  command_line_interface
 
 ## Interfaccia da linea di comando {#command_line_interface_title}
 
-PHP è stato creato principalmente per scrivere applicazioni Web, ma è anche utile nella creazione di programmi da linea
-di comando (CLI - Command Line Interface). I programmi da linea di comando aiutano ad automatizzare compiti come il testing, la pubblicazione e
-l'amministrazione dell'applicazione.
+PHP è stato creato per scrivere applicazioni Web, ma è anche utile nella creazione di programmi da linea di comando (CLI
+- Command Line Interface). I programmi da linea di comando aiutano ad automatizzare compiti come il testing, la
+pubblicazione e l'amministrazione dell'applicazione.
 
 I programmi PHP da linea di comando sono potenti perché puoi usare il codice della tua applicazione direttamente, senza
 dover creare una GUI sicura. Accertati solo di non mettere gli script CLI nella root pubblica!

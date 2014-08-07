@@ -12,11 +12,12 @@ contiene PHP 5.3.6 e Mountain Lion ha PHP 5.4.17.
 Per aggiornare PHP su OSX puoi installarlo tramite un [gestore di pacchetti][mac-package-managers] per Mac,
 è consigliato usare [php-osx][php-osx-downloads] di Liip.
 
-L'altra opzione è [compilarlo][mac-compile] da sé. In questo caso assicurati di avere Xcode o i
-["Command Line Tools for Xcode"][apple-developer] di Apple scaricabili dal centro sviluppatori Apple.
+Puoi anche [compilarlo][mac-compile] tu stesso. In questo caso assicurati di avere installato Xcode o i
+["Command Line Tools for Xcode"][apple-developer] sostitutivi di Apple, scaricabili dal centro sviluppatori Mac di
+Apple.
 
-Per un pacchetto "tutto compreso" che include PHP, il Web server Apache e il database MySQL, tutto con una fantastica GUI di
-controllo, prova [MAMP][mamp-downloads] o [XAMPP][xampp].
+Per un pacchetto "tutto compreso" che include PHP, il web server Apache e il database MySQL, tutto con una fantastica
+GUI di controllo, prova [MAMP][mamp-downloads] o [XAMPP][xampp].
 
 [mac-package-managers]: http://www.php.net/manual/it/install.macosx.packages.php
 [mac-compile]: http://www.php.net/manual/it/install.macosx.compile.php

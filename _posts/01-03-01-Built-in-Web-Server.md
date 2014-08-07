@@ -6,8 +6,8 @@ anchor:  builtin_web_server
 
 ## Il Web server integrato {#builtin_web_server_title}
 
-Puoi iniziare a studiare PHP senza dover installare e configurare un Web server completo, è sufficiente avere PHP 5.4 o superiore. Per avviare
-il Web server integrato, esegui il seguente comando in un terminale dalla root del tuo progetto:
+Con PHP 5.4 o successivo, puoi iniziare a studiare PHP senza installare e configurare un web server completo. Per
+avviare il server, esegui il seguente comando dal terminale nella web root del tuo progetto:
 
   > php -S localhost:8000
 
