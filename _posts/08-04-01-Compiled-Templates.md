@@ -3,26 +3,71 @@ isChild: true
 anchor: compiled_templates
 ---
 
-## Compiled Templates {#compiled_templates}
+## Template compilati {#compiled_templates}
 
-While PHP has evolved into a mature, object oriented language, it
-[hasn't improved much](http://fabien.potencier.org/article/34/templating-engines-in-php) as a templating language.
-Compiled templates, like [Twig](http://twig.sensiolabs.org/) or [Smarty](http://www.smarty.net/), fill this void by
-offering a new syntax that has been geared specifically to templating. From automatic escaping, to inheritance and
-simplified control structures, compiled templates are designed to be easier to write, cleaner to read and safer to use.
-Compiled templates can even be shared across different languages, [Mustache](http://mustache.github.io/) being a good
-example of this. Since these templates must be compiled there is a slight performance hit, however this is very minimal
-when proper caching is used.
+Nonostante PHP si sia evoluto fino a diventare un linguaggio maturo e orientato
+agli oggetti, non [è migliorato molto](http://fabien.potencier.org/article/34/templating-engines-in-php)
+come linguaggio di templating. I template compilati, come [Twig](http://twig.sensiolabs.org/)
+o [Smarty](http://www.smarty.net/)*, sopperiscono a questa mancanza offrendo una
+nuova sintassi che è stato studiata appositamente per il templating.
+Dall'escaping automatico all'ereditarietà, passando per le strutture di
+controllo semplificate, i template compilati sono disegnati per essere più
+semplici da scrivere, più puliti da leggere e più sicuri da usare. I template
+compilati possono anche essere condivisi tra diversi linguaggi, e [Mustache](http://mustache.github.io/)
+ne è un buon esempio. Poiché questi template devono essere compilati c'è un
+leggero impatto sulla performance, ma è minimo quando si usa un sistema di
+caching appropriato.
 
-Example of a compiled template (using the [Twig](http://twig.sensiolabs.org/) library):
+**Nonostante Smarty offra l'escaping automatico, questa funzionalità NON è abilitata di default.*
+
+### Esempio semplice di template compilato
+
+Usando la libreria [Twig](http://twig.sensiolabs.org/).
 
 {% highlight text %}
 {% raw %}
-{% include 'header.html' with {'title': 'User Profile'} %}
+{% include 'header.html' with {'title': 'Profilo utente'} %}
 
-<h1>User Profile</h1>
-<p>Hello, {{ name }}</p>
+<h1>Profilo utente</h1>
+<p>Ciao, {{ name }}</p>
 
 {% include 'footer.html' %}
+{% endraw %}
+{% endhighlight %}
+
+### Esempio di template compilato che usa l'ereditarietà
+
+Usando la libreria [Twig](http://twig.sensiolabs.org/).
+
+{% highlight text %}
+{% raw %}
+// template.php
+
+<html>
+<head>
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+
+<main>
+    {% block content %}{% endblock %}
+</main>
+
+</body>
+</html>
+{% endraw %}
+{% endhighlight %}
+
+{% highlight text %}
+{% raw %}
+// user_profile.php
+
+{% extends "template.html" %}
+
+{% block title %}Profilo utente{% endblock %}
+{% block content %}
+    <h1>Profilo utente</h1>
+    <p>Ciao, {{ name }}</p>
+{% endblock %}
 {% endraw %}
 {% endhighlight %}

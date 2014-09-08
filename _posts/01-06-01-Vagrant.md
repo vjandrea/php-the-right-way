@@ -24,13 +24,15 @@ creare e modificare i file sulla macchina host ed eseguirlo nella macchina virtu
 
 Se ti serve un piccolo aiuto per iniziare a usare Vagrant eccoti due servizi che ti potrebbero essere utili:
 
-- [Rove][rove]: servizio che permette di generare build di Vagrant tipiche, tra cui PHP. Il provisioning è
+- [Rove][rove]: servizio che permette di pre-generare build di Vagrant tipiche, tra cui PHP. Il provisioning è
   eseguito con Chef.
-- [Puphpet][puphpet]: un semplice programma per configurare macchine virtuali. **Fortemente orientato
-  a PHP**. Oltre alle VM locali, può essere usato per pubblicare anche servizi cloud. Il provisioning è eseguito
+- [Puphpet][puphpet]: una semplice interfaccia per configurare macchine virtuali. **Fortemente orientato
+  a PHP**. Oltre alle VM locali, può essere usato per rilasciare anche servizi cloud. Il provisioning è eseguito
   con Puppet.
 - [Protobox][protobox]: è un layer costruito su Vagrant e una GUI web per configurare macchine virtuali per lo sviluppo
   Web. Un singolo documento YAML controlla tutto ciò che è installato sulla macchina virtuale.
+- [Phansible][phansible]: fornisce un'interfaccia semplice da utilizzare che aiuta a generare Playbook Ansible per
+  progetti basati su PHP.
 
 [vagrant]: http://vagrantup.com/
 [puppet]: http://www.puppetlabs.com/
@@ -38,3 +40,4 @@ Se ti serve un piccolo aiuto per iniziare a usare Vagrant eccoti due servizi che
 [rove]: http://rove.io/
 [puphpet]: https://puphpet.com/
 [protobox]: http://getprotobox.com/
+[phansible]: http://phansible.com/
