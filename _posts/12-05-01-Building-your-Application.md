@@ -50,6 +50,7 @@ Alcune risorse su Chef e PHP:
 
 * [Serie in tre parti sulla pubblicazione di un'applicazione LAMP con Chef, Vagrant ed EC2](http://www.jasongrimes.org/2012/06/managing-lamp-environments-with-chef-vagrant-and-ec2-1-of-3/)
 * [Articolo sull'installazione e la configurazione di PHP 5.3 e PEAR con Chef](https://github.com/opscode-cookbooks/php)
+* [Video tutorial su Chef di Opscode, i creatori di Chef](https://www.youtube.com/playlist?list=PLrmstJpucjzWKt1eWLv88ZFY4R1jW8amR)
 
 Altre letture:
 
