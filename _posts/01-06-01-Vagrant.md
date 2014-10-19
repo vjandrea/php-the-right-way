@@ -12,9 +12,9 @@ si fa parte di un team di sviluppatori.
 Se stai sviluppando su Windows e pubblicando su Linux (o qualunque sistema non Windows) o se stai sviluppando in un team,
 potresti prendere in considerazione l'utilizzo di una macchina virtuale. Sembra complicato, ma tramite [Vagrant][vagrant] puoi
 configurare con semplicità una macchina virtuale. Questa macchina di base può essere configurata
-manualmente, ma puoi usare un software di gestione come [Puppet][puppet] o [Chef][chef] che lo faranno per te. Questo è
+manualmente, ma puoi usare un software di gestione come [Puppet][puppet] o [Chef][chef] che lo faccia per te. Questo è
 un buon modo per assicurarsi che diverse macchine vengano configurate nella stessa identica maniera e rimuove la
-necessità per complicate liste di comandi di configurazione. Puoi anche "distruggere" la macchina e ricrearla senza
+necessità di complicate liste di comandi di configurazione. Puoi anche "distruggere" la macchina e ricrearla senza
 troppa fatica, rendendo facile la creazione di un'installazione "fresca".
 
 Vagrant crea cartelle condivise usate per condividere il codice tra l'host e la tua macchina virtuale, dunque puoi

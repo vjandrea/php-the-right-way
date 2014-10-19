@@ -164,18 +164,19 @@ $a = 'Esempio multi-linea'      // operatore di concatenamento (.)
 
 ### Tipi di stringhe
 
-I tipi di stringhe sono una funzionalità costante nella comunità PHP, ma questa
-sezione spiegherà comunque le differenze tra i tipi di stringhe e i loro
-usi/benefici.
+Le stringhe sono una serie di caratteri, e fin qui il concetto è piuttosto
+semplice. Detto questo, ci sono tipi diversi di stringhe che hanno una sintassi
+e funzionalità leggermente differenti.
 
 #### Apici singoli
 
-Gli apici singoli sono il modo più semplice di definire una stringa e sono
-spesso il più veloce. La loro velocità deriva dal fatto che PHP non ha bisogno
-di interpretare la stringa (non cerca variabili). Sono adatte per:
+Gli apici singoli vengono usati per denotare una "stringa letterale". Le
+stringhe letterali non eseguono il parsing di caratteri speciali o variabili.
 
-- Stringhe che non devono essere interpretate
-- Scrittura di una variabile sotto forma di testo semplice
+Se usi gli apici singoli, puoi inserire il nome di una variabile così: `'qualche
+$cosa'` e vedresti l'output esatto `quale $cosa`. Se usi gli apici doppi, la
+stringa cercherebbe di recuperare la variabile `$cosa` e visualizzerebbe degli
+errori in caso la variabile non venisse trovata.
 
 {% highlight php %}
 <?php
@@ -192,12 +193,10 @@ echo 'Questa è la mia stringa, guarda come è bella.';    // non serve interpre
 
 #### Virgolette
 
-Le virgolette sono il coltellno svizzero delle stringhe, ma sono più lente
-perché vengono interpretate. Sono adatte per:
-
-- Stringhe con caratteri di escape
-- Stringhe con variabili e testo semplice
-- Condensare il concatenamento multi-riga e migliorare la leggibilità
+Le virgolette sono il coltellno svizzero delle stringhe. Non solo effettuano il
+parsing delle variabili come abbiamo detto sopra, ma di tutti i caratteri
+speciali come `\n` per la nuova linea, `\t` per la tabulazione etc. perché
+vengono interpretate. Sono adatte per:
 
 {% highlight php %}
 <?php
@@ -211,10 +210,19 @@ echo "phptherightway è $adjective.\n Adoro imparare $code!"    // Invece del co
                                                                // ci permettono di creare una stringa interpretata
 {% endhighlight %}
 
-Nell'uso di stringhe contenenti variabili e racchiuse tra virgolette doppie, capita
-spesso che il nome della variabile tocchi un altro carattere. In questo caso PHP
-non interpreterà la variabile perché il suo nome è nascosto. Per ovviare a
-questo problema, racchiudi la variabili tra parentesi graffe.
+Gli apici doppi possono contenere variabili; questa si chiama "interpolazione".
+
+{% highlight php %}
+<?php
+$juice = 'plum';
+echo "I like $juice juice";    // Output: I like plum juice
+{% endhighlight %}
+
+Quando usi l'interpolazione, capita spesso che il nome di una variabile tocchi
+un altro carattere. Questo renderà impossibile distinguere il nome della
+variabile dal carattere letterale.
+
+Per ovviare al problema, racchiudi la variabile in un paio di parentesi graffe.
 
 {% highlight php %}
 <?php
@@ -291,6 +299,28 @@ EOD;                        // la chiusura di 'EOD' dev'essere su una linea a pa
 {% endhighlight %}
 
 * [Sintassi heredoc](http://www.php.net/manual/it/language.types.string.php#language.types.string.syntax.heredoc)
+
+### Qual è più veloce?
+
+C'è un mito secondo cui gli apici singoli sono più veloci delle stringhe con
+apici doppi. Non è vero.
+
+Se stai definendo una stringa e non cerchi di concatenare valori o eseguire
+altre operazioni complicate, allora gli apici singoli e doppi sono identici.
+Nessuno dei due è più veloce.
+
+Se stai concatenando stringhe multiple di qualunque tipo, o interpolando valori
+in una stringa con apici doppi, allora i risultati possono variare. Se stai
+lavorando con un piccolo numero di valori, il concatenamento è di poco più
+veloce. Con molti valori, l'interpolazione è di poco più veloce.
+
+Indipendentemente da ciò che fai con le stringhe, nessuno dei tipi avrà mai un
+impatto evidente sulla tua applicazione. Cercare di riscrivere il codice per
+usare l'uno o l'altro tipo è un esercizio inutile, quindi evita queste
+micro-ottimizzazioni a meno che tu non capisca realmente il significato e
+l'impatto delle differenze.
+
+[Disproving the Single Quotes Performance Myth]: http://nikic.github.io/2012/01/09/Disproving-the-Single-Quotes-Performance-Myth.html
 
 ## Operatore ternario
 
