@@ -49,6 +49,7 @@ class AutomobileFactory
 $veyron = AutomobileFactory::create('Bugatti', 'Veyron');
 
 print_r($veyron->getMakeAndModel()); // visualizza "Bugatti Veyron"
+{% endhighlight %}
 
 Questo codice usa una _factory_ per creare l'oggetto Automobile. Ci sono due potenziali benefici nello strutturare il
 codice in questo modo. Il primo è che, se in futuro avrai bisogno di rinominare, modificare o sostituire la classe
