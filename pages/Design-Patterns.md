@@ -10,7 +10,8 @@ preferisci nell'architettarli. Generalmente, però, è una buona idea seguire de
 tuo codice più semplice da gestire per te e più facile da capire per gli altri.
 
 * [Modelli architetturali su Wikipedia](https://en.wikipedia.org/wiki/Architectural_pattern)
-* [Design pattern su Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
+* [Design pattern del software su Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
+* [Collezione di esempi d'implementazione](https://github.com/domnikl/DesignPatternsPHP)
 
 ## Factory
 
@@ -21,18 +22,18 @@ Considera il seguente esempio di _Factory Method_:
 <?php
 class Automobile
 {
-    private $vehicle_make;
-    private $vehicle_model;
+    private $vehicleMake;
+    private $vehicleModel;
 
     public function __construct($make, $model)
     {
-        $this->vehicle_make = $make;
-        $this->vehicle_model = $model;
+        $this->vehicleMake = $make;
+        $this->vehicleModel = $model;
     }
 
-    public function get_make_and_model()
+    public function getMakeAndModel()
     {
-        return $this->vehicle_make . ' ' . $this->vehicle_model;
+        return $this->vehicleMake . ' ' . $this->vehicleModel;
     }
 }
 
@@ -47,8 +48,7 @@ class AutomobileFactory
 // facciamo creare l'oggetto Automobile alla factory
 $veyron = AutomobileFactory::create('Bugatti', 'Veyron');
 
-print_r($veyron->get_make_and_model()); // visualizza "Bugatti Veyron"
-{% endhighlight %}
+print_r($veyron->getMakeAndModel()); // visualizza "Bugatti Veyron"
 
 Questo codice usa una _factory_ per creare l'oggetto Automobile. Ci sono due potenziali benefici nello strutturare il
 codice in questo modo. Il primo è che, se in futuro avrai bisogno di rinominare, modificare o sostituire la classe
