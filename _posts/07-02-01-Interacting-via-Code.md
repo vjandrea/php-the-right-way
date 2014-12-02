@@ -84,9 +84,9 @@ class Foo()
 **views/foo-list.php**
 
 {% highlight php %}
-<? foreach ($fooList as $row): ?>
+<?php foreach ($fooList as $row): ?>
     <?= $row['field1'] ?> - <?= $row['field1'] ?>
-<? endforeach ?>
+<?php endforeach ?>
 {% endhighlight %}
 
 Questa è essenzialmente la stessa cosa che fanno molti framework moderni, anche se un po' più manuale. Potresti non
