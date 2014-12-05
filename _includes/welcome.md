@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Benvenuto
 
 Sul Web ci sono molte informazioni datate che portano gli utenti PHP fuori

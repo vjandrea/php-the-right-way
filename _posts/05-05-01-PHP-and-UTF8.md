@@ -107,7 +107,6 @@ $string = 'Êl síla erin lû e-govaned vîn.';
 // Trasforma la stringa in qualche modo con una funzione multibyte
 // Nota come, a scopo dimostrativo, tagliamo la stringa a un carattere non ASCII
 $string = mb_substr($string, 0, 15);
-<<<<<<< HEAD
 
 // Connettiti al database per salvare la stringa trasformata
 // Vedi l'esempio PDO in questo documento per maggiori informazioni
