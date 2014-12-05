@@ -40,7 +40,6 @@ _PHP: La Retta Via_ è (o sarà presto) tradotto in diverse lingue:
 * [Thailandese](https://apzentral.github.io/php-the-right-way/)
 * [Turco](http://hkulekci.github.io/php-the-right-way/)
 * [Ucraino](http://iflista.github.com/php-the-right-way/)
->>>>>>> upstream/gh-pages
 
 ## Come contribuire
 
