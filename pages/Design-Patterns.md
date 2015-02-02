@@ -274,11 +274,13 @@ $data = $client->loadOutput();
 
 ## Front Controller
 
-Il _Front Controller Pattern_ consiste nell'utilizzo di un singolo punto di entrata per la tua applicazione Web (es.
-index.php) che gestisce tutte le richieste. Questo codice è responsabile di caricare di tutte le dipendenze, di
-processare la richiesta e di inviare la risposta al browser. Il _Front Controller Pattern_ può portare benefici perché
-incoraggia l'uso di codice modulare e fornisce un punto centrale in cui inserire codice che dev'essere eseguito per ogni
-richiesta (come la sanificazione dell'input).
+Il front controller pattern consiste nell'utilizzo di un singolo punto di
+entrata per la tua applicazione Web (es. index.php) che gestisce tutte le
+richieste. Questo codice è responsabile di caricare di tutte le dipendenze, di
+processare la richiesta e di inviare la risposta al browser. Il front controller
+pattern può portare benefici perché incoraggia l'uso di codice modulare e
+fornisce un punto centrale in cui inserire codice che dev'essere eseguito per
+ogni richiesta (come la sanificazione dell'input).
 
 * [Front Controller Pattern su Wikipedia](https://it.wikipedia.org/wiki/Front_Controller_pattern)
 
