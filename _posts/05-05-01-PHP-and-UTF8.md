@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 title:   Lavorare con UTF-8
 isChild: true
 anchor:  php_and_utf8

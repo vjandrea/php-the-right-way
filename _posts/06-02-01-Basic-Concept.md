@@ -1,9 +1,6 @@
 ---
 isChild: true
-<<<<<<< HEAD
 title:   Concetto di base
-=======
->>>>>>> upstream/gh-pages
 anchor:  basic_concept
 ---
 
