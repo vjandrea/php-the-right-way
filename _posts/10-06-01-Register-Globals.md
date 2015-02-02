@@ -20,4 +20,4 @@ Per esempio: `$_GET['foo']` sarebbe disponibile tramite `$foo`, che può
 sovrascrivere le variabili non dichiarate. Se stai usando PHP < 5.4.0,
 __assicurati__ che `register_globals` sia __off__.
 
-* [register_globals nel manuale PHP](http://www.php.net/manual/it/security.globals.php)
+* [register_globals nel manuale PHP](http://php.net/security.globals)

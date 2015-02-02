@@ -25,7 +25,7 @@ può fidare di essi.
 
 I dati possono essere _filtrati_ diversamente a seconda del loro scopo. Per
 esempio, quando input esterno non filtrato è passato nell'output HTML della
-pagina, può esguire codice HTML e Javascript sul tuo sito! Questo è conosciuto
+pagina, può esguire codice HTML e JavaScript sul tuo sito! Questo è conosciuto
 come Cross-Site Scripting (XSS) e può essere un attacco molto pericoloso. Un
 modo per evitare l'XSS è sanitizzare tutti i dati generati dall'utente prima di
 visualizzarlo nella tua pagina, rimuovendo i tag HTML con la funzione
@@ -50,7 +50,7 @@ pubblici o con informazioni sensibili.
 
 ### Sanitizzazione
 
-La sanitizzazione rimuove (o fa l'escape) i caratteri non permessi o insicuri
+La sanitizzazione rimuove (o fa l'escape) i caratteri non permessi o pericolosi
 dall'input esterno.
 
 Per esempio, dovresti sanitizzare l'input esterno prima di includerlo in codice

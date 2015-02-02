@@ -13,7 +13,7 @@ computazionali.
 È qui che le cache dell'opcode entrano in gioco. Evitano compilazioni inutili
 salvando l'opcode in memoria e riusandolo nelle chiamate successive. Impostare
 una cache dell'opcode è una questione di minuti, e la tua applicazione sarà
-molto più veloci. Non c'è alcuna ragione per non usarla.
+molto più veloce. Non c'è alcuna ragione per non usarla.
 
 A partire da PHP 5.5, c'è una cache dell'opcode integrata chiamata
 [OPcache][opcache-book]. È anche disponibile per versioni precedenti.
@@ -21,10 +21,15 @@ A partire da PHP 5.5, c'è una cache dell'opcode integrata chiamata
 Altre risorse sulle cache dell'opcode:
 
 * [OPcache][opcache-book] (integrata a partire da PHP 5.5)
-* [APC](http://php.net/manual/en/book.apc.php) (PHP 5.4 e precedenti)
-* [XCache](http://xcache.lighttpd.net/)
-* [Zend Optimizer+](http://www.zend.com/products/server/) (parte del pacchetto Zend Server)
-* [WinCache](http://www.iis.net/download/wincacheforphp) (estensione per MS Windows Server)
-* [list of PHP accelerators on Wikipedia](http://en.wikipedia.org/wiki/List_of_PHP_accelerators)
+* [APC] (PHP 5.4 e precedenti)
+* [XCache]
+* [Zend Optimizer+] (parte del pacchetto Zend Server)
+* [WinCache] (estensione per MS Windows Server)
+* [lista di acceleratori PHP su Wikipedia][PHP_accelerators]
 
-[opcache-book]: http://php.net/manual/en/book.opcache.php
+[opcache-book]: http://php.net/book.opcache
+[APC]: http://php.net/book.apc
+[XCache]: http://xcache.lighttpd.net/
+[Zend Optimizer+]: http://www.zend.com/products/server/
+[WinCache]: http://www.iis.net/download/wincacheforphp
+[PHP_accelerators]: http://en.wikipedia.org/wiki/List_of_PHP_accelerators

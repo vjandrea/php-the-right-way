@@ -1,5 +1,5 @@
 ---
-title: Caratteristiche del linguaggio
+title:  Caratteristiche del linguaggio
 anchor: language_highlights
 ---
 

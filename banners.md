@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Web Banner
-description: "Spargi la voce! Usa questi banner per far conoscere PHP: La Retta Via"
+description: "Spargi la voce! Usa questi banner per far conoscere PHP: La Retta Via ai nuovi sviluppatori PHP"
+sitemap: true
 ---
 
 # Web Banner

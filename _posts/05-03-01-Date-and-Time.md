@@ -20,9 +20,9 @@ per convertire DateTime in una stringa da visualizzare.
 {% highlight php %}
 <?php
 $raw = '22. 11. 1968';
-$start = \DateTime::createFromFormat('d. m. Y', $raw);
+$start = DateTime::createFromFormat('d. m. Y', $raw);
 
-echo 'Start date: ' . $start->format('Y-m-d') . "\n";
+echo 'Data inizio: ' . $start->format('Y-m-d') . "\n";
 {% endhighlight %}
 
 Il calcolo con DateTime è possibile grazie alla classe DateInterval. DateTime ha
@@ -37,7 +37,7 @@ facile da visualizzare.
 <?php
 // crea una copia di $start e aggiungi un mese e 6 giorni
 $end = clone $start;
-$end->add(new \DateInterval('P1M6D'));
+$end->add(new DateInterval('P1M6D'));
 
 $diff = $end->diff($start);
 echo 'Differenza: ' . $diff->format('%m mese, %d giorni (total: %a giorni)') . "\n";
@@ -62,6 +62,7 @@ fine, e l'intervallo per il quale restituirà tutti gli eventi compresi.
 // mostra tutti i giovedì tra $start e $end
 $periodInterval = \DateInterval::createFromDateString('first thursday');
 $periodIterator = new \DatePeriod($start, $periodInterval, $end, \DatePeriod::EXCLUDE_START_DATE);
+
 foreach ($periodIterator as $date) {
     // visualizza ogni data nel periodo
     echo $date->format('Y-m-d') . ' ';
@@ -71,5 +72,5 @@ foreach ($periodIterator as $date) {
 * [Leggi su DateTime][datetime]
 * [Leggi sulla formattazione delle date][dateformat] (opzioni di formato delle date accettate)
 
-[datetime]: http://www.php.net/manual/it/book.datetime.php
-[dateformat]: http://www.php.net/manual/it/function.date.php
+[datetime]: http://php.net/book.datetime
+[dateformat]: http://php.net/function.date

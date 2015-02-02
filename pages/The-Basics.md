@@ -1,6 +1,7 @@
 ---
-layout: page
-title: Le basi
+layout:  page
+title:   Le basi
+sitemap: true
 ---
 
 # Le basi
@@ -34,8 +35,9 @@ if (strpos('testing', 'test') !== false) {    // vero, perché è stato fatto un
 }
 {% endhighlight %}
 
-* [Operatori di confronto](http://php.net/manual/it/language.operators.comparison.php)
-* [Tabella di confronto tra tipi](http://php.net/manual/it/types.comparisons.php)
+* [Operatori di confronto](http://php.net/language.operators.comparison)
+* [Tabella di confronto tra tipi](http://php.net/types.comparisons)
+* [Prontuario del confronto](http://phpcheatsheets.com/index.php?page=compare)
 
 ## Istruzioni condizionali
 
@@ -68,7 +70,7 @@ function test($a)
 }
 {% endhighlight %}
 
-* [Costrutti if](http://php.net/manual/it/control-structures.if.php)
+* [Costrutti if](http://php.net/control-structures.if)
 
 ### Istruzioni switch
 
@@ -79,8 +81,8 @@ elseif, ma ci sono un paio di cose a cui prestare attenzione:
 '==')
 - Iterano caso dopo caso finché non viene trovata una corrispondenza. Se non
 viene trovata, viene eseguita quella di default (se definita)
-- Senza un 'break', continueranno a implementare ogni caso finché non raggiungono
-un break/return
+- Senza un 'break', continueranno a implementare ogni caso finché non
+raggiungono un break/return
 - In una funzione, l'utilizzo di 'return' elimina la necessità per un 'break',
 perché esso termina la funzione
 
@@ -106,14 +108,14 @@ function test($a)
 }
 {% endhighlight %}
 
-* [Istruzioni switch](http://php.net/manual/it/control-structures.switch.php)
+* [Istruzioni switch](http://php.net/control-structures.switch)
 * [PHP switch](http://phpswitch.com/)
 
 ## Namespace globale
 
 Quando usi i namespace, potresti scoprire che le funzioni native sono nascoste
-dalle funzioni che hai scritto. Per sistemarlo, referenzia la funzione globale
-mettendo un backslash prima del nome della funzione.
+dalle funzioni che hai scritto. Per sistemarlo, riferisciti alla funzione
+globale mettendo un backslash prima del nome della funzione.
 
 {% highlight php %}
 <?php
@@ -132,8 +134,8 @@ function array()
 }
 {% endhighlight %}
 
-* [Spazio globale](http://php.net/manual/it/language.namespaces.global.php)
-* [Regole globali](http://php.net/manual/it/userlandnaming.rules.php)
+* [Spazio globale](http://php.net/language.namespaces.global)
+* [Regole globali](http://php.net/userlandnaming.rules)
 
 ## Stringhe
 
@@ -160,7 +162,7 @@ $a = 'Esempio multi-linea'      // operatore di concatenamento (.)
     . 'di cosa fare';
 {% endhighlight %}
 
-* [Operatori delle stringhe](http://php.net/manual/it/language.operators.string.php)
+* [Operatori delle stringhe](http://php.net/language.operators.string)
 
 ### Tipi di stringhe
 
@@ -189,14 +191,13 @@ echo 'Questa è la mia stringa, guarda come è bella.';    // non serve interpre
  */
 {% endhighlight %}
 
-* [Apici singoli](http://www.php.net/manual/it/language.types.string.php#language.types.string.syntax.single)
+* [Apici singoli](http://php.net/language.types.string#language.types.string.syntax.single)
 
 #### Virgolette
 
 Le virgolette sono il coltellno svizzero delle stringhe. Non solo effettuano il
 parsing delle variabili come abbiamo detto sopra, ma di tutti i caratteri
-speciali come `\n` per la nuova linea, `\t` per la tabulazione etc. perché
-vengono interpretate. Sono adatte per:
+speciali come `\n` per la nuova linea, `\t` per la tabulazione etc.
 
 {% highlight php %}
 <?php
@@ -242,7 +243,7 @@ $juice = array('mel', 'banan', 'prugn');
 echo "Ho bevuto del succo fatto con le {$juice[1]}e";   // $juice[1] verrà interpretato
 {% endhighlight %}
 
-* [Virgolette](http://www.php.net/manual/it/language.types.string.php#language.types.string.syntax.double)
+* [Virgolette](http://php.net/language.types.string#language.types.string.syntax.double)
 
 #### Sintassi nowdoc
 
@@ -269,7 +270,7 @@ EOD;                        // la chiusura di 'EOD' dev'essere su una linea a pa
  */
 {% endhighlight %}
 
-* [Sintassi nowdoc](http://www.php.net/manual/it/language.types.string.php#language.types.string.syntax.nowdoc)
+* [Sintassi nowdoc](http://php.net/language.types.string#language.types.string.syntax.nowdoc)
 
 #### Sintassi heredoc
 
@@ -298,7 +299,7 @@ EOD;                        // la chiusura di 'EOD' dev'essere su una linea a pa
  */
 {% endhighlight %}
 
-* [Sintassi heredoc](http://www.php.net/manual/it/language.types.string.php#language.types.string.syntax.heredoc)
+* [Sintassi heredoc](http://php.net/language.types.string#language.types.string.syntax.heredoc)
 
 ### Qual è più veloce?
 
@@ -320,7 +321,7 @@ usare l'uno o l'altro tipo è un esercizio inutile, quindi evita queste
 micro-ottimizzazioni a meno che tu non capisca realmente il significato e
 l'impatto delle differenze.
 
-[Disproving the Single Quotes Performance Myth]: http://nikic.github.io/2012/01/09/Disproving-the-Single-Quotes-Performance-Myth.html
+* [Disproving the Single Quotes Performance Myth](http://nikic.github.io/2012/01/09/Disproving-the-Single-Quotes-Performance-Myth.html)
 
 ## Operatore ternario
 
@@ -334,7 +335,8 @@ $a = 5;
 echo ($a == 5) ? 'sì' : 'no';
 {% endhighlight %}
 
-Ecco invece un esempio che sacrifica ogni forma di leggibilità per ridurre il numero delle righe:
+Ecco invece un esempio che sacrifica ogni forma di leggibilità per ridurre il
+numero delle righe:
 
 {% highlight php %}
 <?php
@@ -355,7 +357,8 @@ return ($a == 5) ? 'sì' : 'no';    // questo esempio restituirà 'sì'
 
 {% endhighlight %}
 
-È importante notare che non serve usare l'operatore ternario per restituire un valore booleano. Un esempio:
+È importante notare che non serve usare l'operatore ternario per restituire un
+valore booleano. Un esempio:
 
 {% highlight php %}
 <?php
@@ -373,7 +376,9 @@ Lo stesso si può dire per tutte le operazioni (===, !==, !=, == etc.)
 
 #### Uso delle parentesi con gli operatori ternari per forma e funzione
 
-Quando usi l'operatore ternario, le parentesi possono fare la loro parte per migliorare la leggibilità e anche per unire più condizioni in blocchi di istruzioni. Un esempio di un uso superfluo delle parentesi è:
+Quando usi l'operatore ternario, le parentesi possono fare la loro parte per
+migliorare la leggibilità e anche per unire più condizioni in blocchi di
+istruzioni. Un esempio di un uso superfluo delle parentesi è:
 
 {% highlight php %}
 <?php
@@ -382,7 +387,6 @@ return ($a == 3) ? "sì" : "no"; // restituisce sì o no a seconda della condizi
 
 // contro
 
-<?php
 $a = 3;
 return $a == 3 ? "sì" : "no"; // restituisce sì o no a seconda della condizione $a == 3
 {% endhighlight %}
@@ -405,7 +409,7 @@ Un altro esempio è la porzione qui sotto che restituirà true se ($a != 3 E $b 
 return ($a != 3 && $b != 4) || $c == 5;
 {% endhighlight %}
 
-* [Operatore ternario](http://php.net/manual/it/language.operators.comparison.php)
+* [Operatore ternario](http://php.net/language.operators.comparison)
 
 ## Dichiarazioni di variabili
 

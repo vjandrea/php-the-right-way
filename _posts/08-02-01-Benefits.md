@@ -8,8 +8,8 @@ anchor:  templating_benefits
 Il beneficio principale derivante dall'uso dei template è la separazione che
 creano tra la logica di presentazione e il resto della tua applicazione. I
 template hanno la sola responsabilità di visualizzare contenuto formattato. Non
-sono responsabili per il recupero o la persistenza dei dati o altri compiti
-più complessi. Questo porta alla scrittura di codice più pulito e più facile da
+sono responsabili per il recupero o la persistenza dei dati o altri compiti più
+complessi. Questo porta alla scrittura di codice più pulito e più facile da
 leggere, particolarmente utile in un team dove gli sviluppatori lavorano sul
 codice server-side (controller e modelli) e i designer lavorano sul client-side
 (markup).

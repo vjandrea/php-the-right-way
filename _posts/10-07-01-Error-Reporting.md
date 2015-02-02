@@ -17,23 +17,24 @@ configurare il tuo server diversamente negli ambienti di sviluppo e produzione.
 Per mostrare ogni possibile errore durate lo <strong>sviluppo</strong>,
 configura le seguenti opzioni nel tuo `php.ini`:
 
-    display_errors = On
-    display_startup_errors = On
-    error_reporting = -1
-    log_errors = On
+{% highlight ini %}
+display_errors = On
+display_startup_errors = On
+error_reporting = -1
+log_errors = On
+{% endhighlight %}
 
 > Il valore `-1` visualizzerà ogni possibile errore, anche quando nuovi livelli
 > verranno aggiunti in versioni future di PHP. Anche la costante `E_ALL` si
-> comporta in questo modo a partire da PHP 5.4. - [php.net](http://php.net/manual/it/function.error-reporting.php)
+> comporta in questo modo a partire da PHP 5.4. -
+> [php.net](http://php.net/function.error-reporting)
 
 Il livello di errore `E_STRICT` è stato introdotto nella versione 5.3.0 e non è
 parte di `E_ALL`, tuttavia lo è diventato nella 5.4.0. Questo significa che se
-vuoi segnalre ogni possibile errore nella 5.3 devi usare `-1` o
+vuoi segnalare ogni possibile errore nella 5.3 devi usare `-1` o
 `E_ALL | E_STRICT`.
 
 **Segnalare ogni possibile errore nelle diverse versioni di PHP**
-
-**Reporting every possible error by PHP version**
 
 * &lt; 5.3 `-1` o `E_ALL`
 * &nbsp; 5.3 `-1` o `E_ALL | E_STRICT`
@@ -44,16 +45,18 @@ vuoi segnalre ogni possibile errore nella 5.3 devi usare `-1` o
 Per nascondere gli errori in <strong>produzione</strong> configura così il tuo
 `php.ini`:
 
-    display_errors = Off
-    display_startup_errors = Off
-    error_reporting = E_ALL
-    log_errors = On
+{% highlight ini %}
+display_errors = Off
+display_startup_errors = Off
+error_reporting = E_ALL
+log_errors = On
+{% endhighlight %}
 
 Con queste impostazioni in produzione, gli errori saranno comunque loggati nei
-log del Web server, ma non saranno visualizzati all'utente. Per maggiori
+log del web server, ma non saranno visualizzati all'utente. Per maggiori
 informazioni su queste impostazioni, vedi il manuale di PHP:
 
-* [error_reporting](http://php.net/manual/it/errorfunc.configuration.php#ini.error-reporting)
-* [display_errors](http://php.net/manual/it/errorfunc.configuration.php#ini.display-errors)
-* [display_startup_errors](http://php.net/manual/it/errorfunc.configuration.php#ini.display-startup-errors)
-* [log_errors](http://php.net/manual/it/errorfunc.configuration.php#ini.log-errors)
+* [error_reporting](http://php.net/errorfunc.configuration#ini.error-reporting)
+* [display_errors](http://php.net/errorfunc.configuration#ini.display-errors)
+* [display_startup_errors](http://php.net/errorfunc.configuration#ini.display-startup-errors)
+* [log_errors](http://php.net/errorfunc.configuration#ini.log-errors)

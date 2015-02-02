@@ -18,13 +18,14 @@ casi di utilizzo.
 Questo è un documento in sviluppo e continuerà a essere aggiornato con nuove
 informazioni utili ed esempi non appena saranno disponibili.
 
-## Traduzione
+## Traduzioni
 
-_PHP: La Retta Via_ è (o sarà presto) tradotto in diverse lingue:
+_PHP: La Retta Via_ è tradotto in molte lingue diverse:
 
 * [Inglese](http://www.phptherightway.com)
 * [Bulgaro](http://bg.phptherightway.com/)
 * [Cinese (Semplificato)](http://wulijun.github.com/php-the-right-way)
+* [Cinese (Tradizionale)](http://laravel-taiwan.github.io/php-the-right-way)
 * [Francese](http://eilgin.github.io/php-the-right-way/)
 * [Tedesco](http://rwetzlmayr.github.io/php-the-right-way/)
 * [Indonesiano](http://id.phptherightway.com/)
@@ -34,7 +35,7 @@ _PHP: La Retta Via_ è (o sarà presto) tradotto in diverse lingue:
 * [Polacco](http://pl.phptherightway.com/)
 * [Portoghese](http://br.phptherightway.com/)
 * [Romeno](https://bgui.github.io/php-the-right-way/)
-* [Russia](http://getjump.github.io/ru-php-the-right-way)
+* [Russo](http://getjump.github.io/ru-php-the-right-way)
 * [Sloveno](http://sl.phptherightway.com)
 * [Spagnolo](http://phpdevenezuela.github.io/php-the-right-way/)
 * [Thailandese](https://apzentral.github.io/php-the-right-way/)
@@ -43,7 +44,7 @@ _PHP: La Retta Via_ è (o sarà presto) tradotto in diverse lingue:
 
 ## Come contribuire
 
-Aiuta questo sito Web a diventare la migliore risorsa per i nuovi progrmmatori
+Aiuta questo sito Web a diventare la migliore risorsa per i nuovi programmatori
 PHP! [Contribuisci su GitHub][1]
 
 ## Spargi la voce!

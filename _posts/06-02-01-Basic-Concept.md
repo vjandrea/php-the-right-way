@@ -1,6 +1,9 @@
 ---
 isChild: true
+<<<<<<< HEAD
 title:   Concetto di base
+=======
+>>>>>>> upstream/gh-pages
 anchor:  basic_concept
 ---
 
@@ -8,8 +11,9 @@ anchor:  basic_concept
 
 Possiamo dimostrare il concetto con un esempio semplice ma primitivo.
 
-Abbiamo una classe `Database` che richiede un adattatore per comunicare col database. Istanziamo un adattatore nel
-costruttore e creiamo una dipendenza cablata a codice. Questo rende il testing difficoltoso e la classe `Database`
+Abbiamo una classe `Database` che richiede un adattatore per comunicare col
+database. Istanziamo un adattatore nel costruttore e creiamo una dipendenza
+cablata a codice. Questo rende il testing difficoltoso e la classe `Database`
 fortemente legata all'adattatore.
 
 {% highlight php %}
@@ -29,8 +33,8 @@ class Database
 class MysqlAdapter {}
 {% endhighlight %}
 
-Questo codice può essere rifattorizzato in modo che usi l'iniezione delle dipendenze, e dunque renda la dipendenza più
-elastica.
+Questo codice può essere rifattorizzato in modo che usi l'iniezione delle
+dipendenze, e dunque renda la dipendenza più elastica.
 
 {% highlight php %}
 <?php
@@ -49,6 +53,8 @@ class Database
 class MysqlAdapter {}
 {% endhighlight %}
 
-Ora forniamo alla classe `Database` la sua dipendenza invece di crearla noi. Potremmo anche creare un metodo che accetti
-un argomento della dipendenza e impostarla così, o se la proprietà `$adapter` fosse `public` potremmo impostarla
+Ora forniamo alla classe `Database` la sua dipendenza invece di crearla noi.
+Potremmo anche creare un metodo che accetti un argomento della dipendenza e
+impostarla così, o se la proprietà `$adapter` fosse `public` potremmo impostarla
 direttamente.
+
