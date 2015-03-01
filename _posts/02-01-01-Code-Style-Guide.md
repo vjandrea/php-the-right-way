@@ -32,7 +32,6 @@ parti.
 * [Leggi il PSR-2][psr2]
 * [Leggi il PSR-4][psr4]
 * [Leggi i PEAR Coding Standards][pear-cs]
-* [Leggi i Zend Coding Standards][zend-cs]
 * [Leggi i Symfony Coding Standards][symfony-cs]
 
 Puoi usare [PHP_CodeSniffer][phpcs] per controllare che il codice rispetti
@@ -43,10 +42,10 @@ Puoi sistemare la disposizione del codice automaticamente usando uno dei due
 strumenti disponibili. Uno è il [PHP Coding Standards Fixer][phpcsfixer] di
 Fabien Potencier, testato scrupolosamente. È più grande e più lento, ma molto
 stabile e usato da alcuni grandi progetti come Magento e Symfony. Un'altra
-opzione è [php.tools][phptools], reso popolare dal plugin per editor [sublime-
-phpfmt][sublime-phpmft]. Nonostante sia nuovo, porta molti miglioramenti sotto
-il punto di vista della performance, quindi l'adattamento in tempo reale
-nell'editor è più fluido.
+opzione è [php.tools][phptools], reso popolare dal plugin per editor
+[sublime-phpfmt][sublime-phpmft]. Nonostante sia nuovo, porta molti
+miglioramenti sotto il punto di vista della performance, quindi l'adattamento in
+tempo reale nell'editor è più fluido.
 
 La lingua inglese è preferita per tutti i nomi di simboli e infrastrutture del
 codice. I commenti possono essere scritti in qualunque lingua facilmente
@@ -59,7 +58,6 @@ codice.
 [psr2]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md
 [psr4]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md
 [pear-cs]: http://pear.php.net/manual/en/standards.php
-[zend-cs]: http://framework.zend.com/manual/1.12/en/coding-standard.html
 [symfony-cs]: http://symfony.com/doc/current/contributing/code/standards.html
 [phpcs]: http://pear.php.net/package/PHP_CodeSniffer/
 [st-cs]: https://github.com/benmatselby/sublime-phpcs
