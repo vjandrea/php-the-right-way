@@ -70,4 +70,3 @@ disponibile sotto il nome di `__call()` e `__callStatic()`.
 [magic-methods]: http://php.net/language.oop5.magic
 [reflection]: http://php.net/intro.reflection
 [overloading]: http://php.net/language.oop5.overloading
-
