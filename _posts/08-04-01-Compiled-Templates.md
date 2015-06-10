@@ -2,7 +2,8 @@
 isChild: true
 anchor:  compiled_templates
 ---
-ilati {#compiled_templates}
+
+## Template compilati {#compiled_templates_title}
 
 Nonostante PHP si sia evoluto fino a diventare un linguaggio maturo e orientato
 agli oggetti, non [è migliorato molto][article_templating_engines] come
