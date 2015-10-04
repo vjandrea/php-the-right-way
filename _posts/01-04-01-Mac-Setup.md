@@ -9,7 +9,7 @@ anchor:  mac_setup
 OS X viene fornito con una versione pre-pacchettizzata di PHP, ma è normalmente
 un po' più vecchia dell'ultima versione stabile. Mountain Lion ha la 5.3.10,
 Mavericks ha la 5.4.17 e Yosemite ha la 5.5.9, ma con PHP 5.6 già rilasciato di
-solito non è abbastanza.
+solito è meglio aggiornare.
 
 Ci sono diversi modi per installare PHP su OS X.
 

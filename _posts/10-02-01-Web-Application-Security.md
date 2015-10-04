@@ -6,13 +6,13 @@ anchor:  web_application_security
 
 ## Sicurezza nelle applicazioni Web {#web_application_security_title}
 
-Ci sono cattive persone pronte e desiderose di manipolare la tua applicazione
-Web. È importante che prendi le precauzioni necessarie per irrigidire la
+Ci sono persone cattive pronte e desiderose di manipolare la tua applicazione
+Web. È importante che tu prenda le precauzioni necessarie per irrigidire la
 sicurezza della tua applicazione Web. Fortunatamente, i ragazzi
 dell'[Open Web Application Security Project][1] hanno compilato una lunga lista
 di vulnerabilità di sicurezza note e metodi per proteggerti contro di esse.
 Questa guida dev'essere necessariamente letta da qualunque sviluppatore che
-abbia a cura la sicurezza.
+abbia a cuore la sicurezza.
 
 * [Leggi la guida di sicurezza OWASP][2]
 

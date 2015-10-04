@@ -14,7 +14,7 @@ Quando abilitata, l'opzione `register_globals` farà sì che molti tipi di
 variabili (incluse quelle da `$_POST`, `$_GET` e `$_REQUEST`) siano disponibili
 nello scope globale dell'applicazione. Questo può facilmente portare a problemi
 di sicurezza, perché la tua applicazione non può stabilire con certezza da dove
-arrivano i dati.
+arrivino i dati.
 
 Per esempio: `$_GET['foo']` sarebbe disponibile tramite `$foo`, che può
 sovrascrivere le variabili non dichiarate. Se stai usando PHP < 5.4.0,
