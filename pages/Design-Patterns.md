@@ -167,7 +167,7 @@ Dovresti fare molta attenzione quando usi il pattern singleton, poiché per sua
 natura introduce uno stato globale nella tua applicazione, riducendo la
 testabilità. Nella maggior parte dei casi, l'iniezione delle dipendenze può (e
 dovrebbe) essere usata al posto di una classe singleton. Usando l'iniezione
-delle dipendeze eviti di introdurre un legame superfluo nel design della tua
+delle dipendenze eviti di introdurre un legame superfluo nel design della tua
 applicazione, perché l'oggetto che usa la risorsa condivisa o globale non deve
 conoscere alcuna classe concretamente definita.
 
