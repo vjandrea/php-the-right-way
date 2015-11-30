@@ -276,7 +276,7 @@ $data = $client->loadOutput();
 
 Il front controller pattern consiste nell'utilizzo di un singolo punto di
 entrata per la tua applicazione Web (es. index.php) che gestisce tutte le
-richieste. Questo codice è responsabile di caricare di tutte le dipendenze, di
+richieste. Questo codice è responsabile di caricare tutte le dipendenze, di
 processare la richiesta e di inviare la risposta al browser. Il front controller
 pattern può portare benefici perché incoraggia l'uso di codice modulare e
 fornisce un punto centrale in cui inserire codice che dev'essere eseguito per
@@ -299,7 +299,7 @@ MVC è il pattern architetturale più comune usato nei
 [framework PHP](https://github.com/codeguy/php-the-right-way/wiki/Frameworks)
 famosi.
 
-Impara di più riguardo l'MVC e i pattern a esso collegati:
+Impara di più riguardo l'MVC e i pattern ad esso collegati:
 
 * [MVC](https://it.wikipedia.org/wiki/Model-View-Controller)
 * [HMVC](https://en.wikipedia.org/wiki/Hierarchical_model%E2%80%93view%E2%80%93controller)
